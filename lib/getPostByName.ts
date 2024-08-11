@@ -2,7 +2,6 @@ import { BlogPost } from "@/types";
 import { compileMDX } from "next-mdx-remote/rsc";
 import CustomImage from "@/components/CustomImage";
 import CustomVideo from "@/components/CustomVideo";
-import rehypeHighlight from "rehype-highlight";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 
@@ -30,6 +29,7 @@ export async function getPostByName(
     title: string;
     description: string;
     date: string;
+    tags?: string[];
   }>({
     source: rawMDX,
     components: {
@@ -40,14 +40,8 @@ export async function getPostByName(
       parseFrontmatter: true,
       mdxOptions: {
         rehypePlugins: [
-          rehypeHighlight,
           rehypeSlug,
-          [
-            rehypeAutolinkHeadings,
-            {
-              behavior: "wrap",
-            },
-          ],
+          [rehypeAutolinkHeadings, { behavior: "wrap" }],
         ],
       },
     },
@@ -61,6 +55,7 @@ export async function getPostByName(
       title: frontmatter.title,
       description: frontmatter.description,
       date: frontmatter.date,
+      tags: frontmatter.tags || [],
     },
     content,
   };

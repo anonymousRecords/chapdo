@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import "highlight.js/styles/github-dark.css";
 import { getPostByName } from "@/lib/getPostByName";
 import { getArchiveMeta } from "@/lib/getArchiveMeta";
 
@@ -13,17 +12,17 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  const posts = await getArchiveMeta('POSTS'); // deduped!
+  const posts = await getArchiveMeta("POSTS");
 
   if (!posts) return [];
 
   return posts.map((post) => ({
-    postId: post.id,
+    postId: post.meta.id.replace(/^POSTS\//, ''),
   }));
 }
 
 export async function generateMetadata({ params: { postId } }: Props) {
-  const post = await getPostByName(`${postId}.mdx`); // deduped!
+  const post = await getPostByName(`POSTS/${postId}.mdx`);
 
   if (!post) {
     return {
@@ -37,25 +36,22 @@ export async function generateMetadata({ params: { postId } }: Props) {
 }
 
 export default async function Post({ params: { postId } }: Props) {
-  const post = await getPostByName(`${postId}.mdx`); // deduped!
+  const post = await getPostByName(`POSTS/${postId}.mdx`);
 
   if (!post) notFound();
 
   const { meta, content } = post;
 
-  const pubDate = meta.date;
-
   return (
-    <>
-      <h2 className="mb-0 mt-4 text-3xl">{meta.title}</h2>
-      <p className="mt-0 text-sm">{pubDate}</p>
-      <article>{content}</article>
-      <section>
-        <h3>Related:</h3>
-      </section>
-      <p className="mb-10">
-        <Link href="/">← Back to home</Link>
+    <article className="mx-auto max-w-2xl mt-8 prose prose-slate dark:prose-invert">
+      <h1 className="mb-2">{meta.title}</h1>
+      <p className="mt-0 text-sm text-gray-500">{meta.date}</p>
+      {content}
+      <p className="mt-8">
+        <Link href="/posts" className="text-blue-500 hover:underline">
+          ← Back to posts
+        </Link>
       </p>
-    </>
+    </article>
   );
 }
