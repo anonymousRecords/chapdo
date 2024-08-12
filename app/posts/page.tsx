@@ -1,9 +1,8 @@
 import ListItem from "@/components/ListItem";
-import { getArchiveMeta } from "@/lib/getArchiveMeta";
-import { BlogPost } from "@/types";
+import { getPosts } from "@/lib/githubApi";
 
 export default async function Posts() {
-  const posts = await getArchiveMeta("POSTS") as BlogPost[];
+  const posts = await getPosts();
 
   if (!posts || posts.length === 0) {
     return <p className="mt-10 text-center">Sorry, no posts available.</p>;

@@ -38,7 +38,7 @@ const TilSearch: React.FC<TilSearchProps> = ({ posts }) => {
           {searchResults.map((post) => (
             <li key={post.meta.id} className="mb-2">
               <Link
-                href={`/til/${post.meta.id}`}
+                href={`/til/${post.meta.id.replace(/^TIL\//, "")}`}
                 className="text-blue-500 hover:underline"
               >
                 {post.meta.title}

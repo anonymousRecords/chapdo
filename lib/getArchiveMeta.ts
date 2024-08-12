@@ -1,5 +1,5 @@
 import { ArchiveType, BlogPost } from "@/types";
-import { getPostByName } from "./getPostByName";
+import { getPostByName } from "./githubApi";
 
 type Filetree = {
   tree: {

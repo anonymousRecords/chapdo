@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPostByName } from "@/lib/getPostByName";
-import { getArchiveMeta } from "@/lib/getArchiveMeta";
+import { getPostByName, getPosts } from "@/lib/githubApi";
 
 export const revalidate = 86400;
 
@@ -12,12 +11,17 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  const posts = await getArchiveMeta("POSTS");
+  const posts = await getPosts();
+
+  console.log(
+    "Generated static params:",
+    posts?.map((post) => ({ postId: post.meta.id.replace(/^POSTS\//, "") })),
+  );
 
   if (!posts) return [];
 
   return posts.map((post) => ({
-    postId: post.meta.id.replace(/^POSTS\//, ''),
+    postId: post.meta.id.replace(/^POSTS\//, ""),
   }));
 }
 

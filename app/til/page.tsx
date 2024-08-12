@@ -1,11 +1,10 @@
-import { getArchiveMeta } from "@/lib/getArchiveMeta";
+import { getTILs } from "@/lib/githubApi";
 import TilCalendar from "@/components/TilCalendar";
 import RecentTilList from "@/components/RecentTilList";
 import TilSearch from "@/components/TilSearch";
-import { BlogPost } from "@/types";
 
 export default async function TilPage() {
-  const posts = (await getArchiveMeta("TIL")) as BlogPost[];
+  const posts = await getTILs();
 
   if (!posts || posts.length === 0) {
     return <p className="mt-10 text-center">Sorry, no TIL posts available.</p>;

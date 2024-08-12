@@ -17,13 +17,12 @@ const TilCalendar: React.FC<TilCalendarProps> = ({ posts }) => {
   const [selectedTil, setSelectedTil] = useState<BlogPost | null>(null);
   const [currentDate, setCurrentDate] = useState(new Date());
 
-  const events =
-    posts?.map((post) => ({
-      title: post.meta?.title || "Untitled",
-      start: new Date(post.meta?.date || Date.now()),
-      end: new Date(post.meta?.date || Date.now()),
-      resource: post,
-    })) || [];
+  const events = posts.map((post) => ({
+    title: post.meta.title,
+    start: new Date(post.meta.date),
+    end: new Date(post.meta.date),
+    resource: post,
+  }));
 
   const handleSelectEvent = useCallback((event: { resource: BlogPost }) => {
     setSelectedTil(event.resource);
@@ -35,30 +34,6 @@ const TilCalendar: React.FC<TilCalendarProps> = ({ posts }) => {
 
   return (
     <div className="h-[600px] relative z-10">
-      <style jsx global>{`
-        .rbc-calendar {
-          min-height: 600px;
-        }
-        .rbc-header {
-          padding: 10px 3px;
-          background-color: #f3f4f6;
-          color: #374151;
-        }
-        .rbc-event {
-          background-color: #3b82f6;
-        }
-        .rbc-today {
-          background-color: #dbeafe;
-        }
-        .rbc-btn-group button {
-          color: #374151;
-          background-color: #ffffff;
-          border-color: #d1d5db;
-        }
-        .rbc-btn-group button:hover {
-          background-color: #f3f4f6;
-        }
-      `}</style>
       <Calendar
         localizer={localizer}
         events={events}
