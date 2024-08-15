@@ -31,7 +31,7 @@ const TilSearch: React.FC<TilSearchProps> = ({ posts }) => {
         placeholder="Search TILs..."
         value={searchTerm}
         onChange={handleSearch}
-        className="w-full rounded border p-2"
+        className="w-full rounded border p-2 bg-white dark:bg-black text-black dark:text-white"
       />
       {searchTerm && (
         <ul className="mt-2">
@@ -39,7 +39,7 @@ const TilSearch: React.FC<TilSearchProps> = ({ posts }) => {
             <li key={post.meta.id} className="mb-2">
               <Link
                 href={`/til/${post.meta.id.replace(/^TIL\//, "")}`}
-                className="text-blue-500 hover:underline"
+                className="text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-400"
               >
                 {post.meta.title}
               </Link>

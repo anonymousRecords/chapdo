@@ -5,6 +5,7 @@ import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import { BlogPost } from "@/types";
 import TilModal from "./TilModal";
+import "@/styles/calendar.css";
 
 moment.locale("en-GB");
 const localizer = momentLocalizer(moment);

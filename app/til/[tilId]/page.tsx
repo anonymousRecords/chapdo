@@ -43,11 +43,11 @@ export default async function Til({ params: { tilId } }: Props) {
 
   return (
     <article className="mx-auto max-w-2xl mt-8 prose prose-slate dark:prose-invert">
-      <h1 className="mb-2">{meta.title}</h1>
-      <p className="mt-0 text-sm text-gray-500">{meta.date}</p>
-      {content}
+      <h1 className="mb-2 text-3xl font-bold text-black dark:text-white">{meta.title}</h1>
+      <p className="mt-0 text-sm text-gray-600 dark:text-gray-400">{meta.date}</p>
+      <div className="mt-8 text-black dark:text-white">{content}</div>
       <p className="mt-8">
-        <Link href="/til" className="text-blue-500 hover:underline">
+        <Link href="/til" className="text-yellow-500 hover:text-yellow-600 dark:hover:text-yellow-400 no-underline">
           ← Back to TILs
         </Link>
       </p>

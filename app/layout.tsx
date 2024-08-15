@@ -1,7 +1,9 @@
 import React from "react";
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import ThemeProvider from "@/components/Common/ThemeProvider";
+import Navbar from "@/components/Common/Navbar";
+import ThemeToggle from "@/components/Common/ThemeToggle";
 
 export const metadata: Metadata = {
   title: "chapdo-blog",
@@ -16,12 +18,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
-        <Navbar />
-        <main className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
-          {children}
-        </main>
+    <html lang="en" suppressHydrationWarning>
+      <body className="bg-gray-50 dark:bg-black dark:text-gray-100">
+        <ThemeProvider>
+          <Navbar />
+          <ThemeToggle />
+          <main className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+            {children}
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -7,8 +7,15 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        light: "#FFFF00", // 밝은 노란색
+        DEFAULT: "#FFD700", // 기본 노란색
+        dark: "#FFA500", // 어두운 노란색
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
+  darkMode: "class",
 };
 export default config;

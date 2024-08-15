@@ -1,18 +1,23 @@
+import RecentTilList from "@/components/Til/RecentTilList";
+import TilCalendar from "@/components/Til/TilCalendar";
+import TilSearch from "@/components/Til/TilSearch";
 import { getTILs } from "@/lib/githubApi";
-import TilCalendar from "@/components/TilCalendar";
-import RecentTilList from "@/components/RecentTilList";
-import TilSearch from "@/components/TilSearch";
+
 
 export default async function TilPage() {
   const posts = await getTILs();
 
   if (!posts || posts.length === 0) {
-    return <p className="mt-10 text-center">Sorry, no TIL posts available.</p>;
+    return (
+      <p className="mt-10 text-center text-black dark:text-white">
+        Sorry, no TIL posts available.
+      </p>
+    );
   }
 
   return (
     <section className="mx-auto mt-6 max-w-4xl">
-      <h2 className="text-4xl font-bold dark:text-white/90 mb-8">
+      <h2 className="text-4xl font-bold text-black dark:text-white mb-8">
         Today I Learned
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

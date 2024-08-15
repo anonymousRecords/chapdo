@@ -1,0 +1,26 @@
+.rbc-calendar {
+  background-color: white;
+}
+
+.dark .rbc-calendar {
+  background-color: black;
+  color: white;
+}
+
+.rbc-today {
+  background-color: rgba(255, 255, 0, 0.1);
+}
+
+.dark .rbc-today {
+  background-color: rgba(255, 255, 0, 0.2);
+}
+
+.rbc-event {
+  background-color: yellow;
+  color: black;
+}
+
+.dark .rbc-event {
+  background-color: #ffd700;
+  color: black;
+}
