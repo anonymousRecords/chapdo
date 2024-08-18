@@ -14,7 +14,7 @@ function Navbar() {
             <div className="flex-shrink-0 flex items-center">
               <Link
                 href="/"
-                className="text-2xl font-bold text-gray-900 dark:text-white hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors"
+                className="text-2xl font-bold text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-400 transition-colors"
               >
                 chapdo
               </Link>
