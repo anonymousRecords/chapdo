@@ -1,8 +1,19 @@
-import RecentTilList from "@/components/Til/RecentTilList";
-import TilCalendar from "@/components/Til/TilCalendar";
-import TilSearch from "@/components/Til/TilSearch";
+import React from "react";
 import { getTILs } from "@/lib/githubApi";
+import { BlogPost } from "@/types";
+import TilPageClient from "@/components/Til/TilPageClient";
 
+
+// BlogPost를 Meta로 변환하는 함수
+function convertBlogPostToMeta(post: BlogPost) {
+  return {
+    id: post.meta.id,
+    title: post.meta.title,
+    description: post.meta.description,
+    date: post.meta.date,
+    tags: post.meta.tags,
+  };
+}
 
 export default async function TilPage() {
   const posts = await getTILs();
@@ -15,20 +26,8 @@ export default async function TilPage() {
     );
   }
 
-  return (
-    <section className="mx-auto mt-6 max-w-4xl">
-      <h2 className="text-4xl font-bold text-black dark:text-white mb-8">
-        Today I Learned
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="md:col-span-2">
-          <TilCalendar posts={posts} />
-        </div>
-        <div>
-          <TilSearch posts={posts} />
-          <RecentTilList posts={posts.slice(0, 5)} />
-        </div>
-      </div>
-    </section>
-  );
+  // BlogPost[]를 Meta[]로 변환
+  const metaPosts = posts.map(convertBlogPostToMeta);
+
+  return <TilPageClient metaPosts={metaPosts} posts={posts} />;
 }
