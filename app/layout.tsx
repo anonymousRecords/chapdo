@@ -1,9 +1,10 @@
 import React from "react";
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/styles/globals.css";
 import ThemeProvider from "@/components/Common/ThemeProvider";
 import Navbar from "@/components/Common/Navbar";
 import ThemeToggle from "@/components/Common/ThemeToggle";
+import WelcomeDialog from "@/components/Common/WelcomeDialog";
 
 export const metadata: Metadata = {
   title: "chapdo-blog",
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Navbar />
           <ThemeToggle />
           <main className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+            <WelcomeDialog />
             {children}
           </main>
         </ThemeProvider>
