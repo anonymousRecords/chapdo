@@ -16,7 +16,7 @@ type TILItemProps = {
 function TILItem({ item }: TILItemProps) {
   return (
     <Link href={`/til/${item.id.replace(/^TIL\//, "")}`}>
-      <div className="w-64 h-64 bg-white hover:bg-yellow-300 transition-all duration-300 p-4 border border-gray-200 rounded-lg shadow-sm flex flex-col justify-between group hover:-translate-x-2 cursor-pointer">
+      <div className="w-64 h-64  bg-white hover:bg-yellow-300 transition-all duration-300 p-4 border border-gray-300 rounded-lg shadow-sm flex flex-col justify-between group hover:-translate-x-2 cursor-pointer">
         <div>
           <h3 className="text-lg text-black font-semibold mb-2 line-clamp-2 group-hover:line-clamp-none">
             {item.title}
