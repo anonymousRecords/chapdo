@@ -1,5 +1,6 @@
 module.exports = {
   images: {
-    domains: ['github.com'],
+    domains: ["github.com", "liveblocks.io"],
   },
-}
+  trailingSlash: true,
+};
