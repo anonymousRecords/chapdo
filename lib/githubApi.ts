@@ -12,8 +12,9 @@ type Filetree = {
 };
 
 async function fetchGitHubTree(): Promise<Filetree | undefined> {
+  const timestamp = Date.now(); 
   const res = await fetch(
-    "https://api.github.com/repos/anonymousRecords/chapdo-archive/git/trees/main?recursive=1",
+    "https://api.github.com/repos/anonymousRecords/chapdo-archive/git/trees/main?recursive=1&timestamp=${timestamp}",
     {
       headers: {
         Accept: "application/vnd.github+json",
