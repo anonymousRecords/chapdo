@@ -1,37 +1,56 @@
-export const navElements = [
+export const NAV_ELEMENTS = [
   {
     id: "1",
     label: "TIL",
     name: "오늘 배움",
-    description: "오늘 공부한 것들을 모아놓은 공간입니다",
     url: "/til",
   },
   {
     id: "2",
-    label: "POSTS",
-    name: "끄적끄적",
-    description: "개발 관련하여 제 생각을 적은 글이 있는 공간입니다",
-    url: "/posts",
+    label: "ALGORITHM",
+    name: "알고리즘",
+    url: "/algorithm",
   },
   {
     id: "3",
-    label: "PROJECTS",
-    name: "내가 만든 누리집 꾸러미",
-    description: "제가 참여한 프로젝트와 관련된 글이 모여있습니다",
-    url: "/projects",
+    label: "POSTS",
+    name: "포스트",
+    url: "/posts",
   },
   {
     id: "4",
-    label: "ARCHIVES",
-    name: "아카이브",
-    description: "아카이브",
-    url: "/archives",
+    label: "PROJECTS",
+    name: "프로젝트",
+    url: "/projects",
   },
   {
     id: "5",
+    label: "ARCHIVES",
+    name: "아카이브",
+    url: "/archives",
+  },
+  {
+    id: "6",
     label: "STICKERS",
     name: "스티커북",
-    description: "스티커북",
     url: "/stickers",
+  },
+];
+
+export const VIDEO_ELEMENTS = [
+  {
+    id: "1",
+    description: "autumn",
+    video_url: "/video/video_autumn.mp4",
+  },
+  {
+    id: "2",
+    description: "rain",
+    video_url: "/video/video_rain.mp4",
+  },
+  {
+    id: "3",
+    description: "ocean",
+    video_url: "/video/video_ocean.mp4",
   },
 ];
