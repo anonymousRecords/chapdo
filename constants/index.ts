@@ -35,6 +35,12 @@ export const NAV_ELEMENTS = [
     name: "스티커북",
     url: "/stickers",
   },
+  {
+    id: "7",
+    label: "PRACTICE",
+    name: "연습",
+    url: "/practice",
+  },
 ];
 
 export const VIDEO_ELEMENTS = [
