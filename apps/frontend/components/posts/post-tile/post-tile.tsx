@@ -4,7 +4,7 @@ interface PostTileProps {
   title: string;
   content: string;
   tags: string[];
-  maxContentLength: number;
+  maxContentLength?: number;
 }
 
 export default function PostTile({ title, content, tags, maxContentLength = 150 }: PostTileProps) {

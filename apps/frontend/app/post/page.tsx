@@ -1,4 +1,5 @@
 import PostTile from '@/components/posts/post-tile/post-tile';
+import { Suspense } from 'react';
 
 const dummyPosts = [
   {
@@ -13,7 +14,6 @@ const dummyPosts = [
     content: 'This',
     tag: ['React', 'TypeScript'],
   },
-  // 10개 채워줘
   {
     id: 3,
     title: 'Hello, World!',
@@ -114,10 +114,12 @@ const dummyPosts = [
 
 export default function PostPage() {
   return (
-    <section className="grid grid-cols-2">
-      {dummyPosts.map((post) => (
-        <PostTile key={post.id} title={post.title} content={post.content} tags={post.tag} />
-      ))}
+    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+      <Suspense fallback={<div>Loading...</div>} >
+        {dummyPosts.map((post) => (
+          <PostTile key={post.id} title={post.title} content={post.content} tags={post.tag} />
+        ))}
+      </Suspense>
     </section>
   );
 }
