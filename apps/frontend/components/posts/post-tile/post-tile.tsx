@@ -23,12 +23,12 @@ export default function PostTile({ title, content, tags, maxContentLength = 150 
         <p className="text-gray-700">{truncatedContent}</p>
       </div>
       <div className="flex  flex-wrap">
-        {tags.map((tag, index) => (
+        {tags.filter(tag => tag.trim()).map((tag) => (
           <span
-            key={index}
+            key={`${title}-${tag}`}
             className="bg-blue-500 text-white rounded-full px-2 py-1 text-sm mr-2 mb-2"
           >
-            {tag}
+            {tag.trim()}
           </span>
         ))}
       </div>
