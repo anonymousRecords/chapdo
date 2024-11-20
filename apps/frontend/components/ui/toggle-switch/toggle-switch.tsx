@@ -1,16 +1,21 @@
 'use client';
 
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 
 interface ToggleSwitchProps {
   leftLabel: string;
   rightLabel: string;
+  onChange?: (isChecked: boolean) => void;
 }
 
-export default function ToggleSwitch({ leftLabel, rightLabel }: ToggleSwitchProps) {
+export default function ToggleSwitch({ leftLabel, rightLabel, onChange }: ToggleSwitchProps) {
   const [isChecked, setIsChecked] = useState(false);
 
-  const toggleSwitch = () => setIsChecked(!isChecked);
+  const toggleSwitch = useCallback(() => {
+    const newValue = !isChecked;
+      setIsChecked(newValue);
+      onChange?.(newValue);
+  }, [isChecked, onChange]);
 
   return (
     <div className="flex items-center space-x-2">
