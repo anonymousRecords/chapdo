@@ -17,7 +17,13 @@ export default function ExpandableNavbar() {
   return (
     <div className="fixed top-0 left-0 w-full bg-white shadow-lg">
       <div className="flex items-center justify-between px-4 h-9">
-        <button onClick={toggleExpand} className="focus:outline-none">
+        <button 
+          onClick={toggleExpand}
+          onKeyDown={(e) => e.key === 'Enter' && toggleExpand()}
+          aria-expanded={isExpanded}
+          aria-label={'navigation.toggle_button'} 
+          className="focus:outline-none"
+        >
           {isExpanded ? (
             <XMarkIcon className="h-6 w-6 text-gray-600" />
           ) : (
