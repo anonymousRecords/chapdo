@@ -1,6 +1,11 @@
 import { ArrowLeftIcon, ShareIcon } from '@heroicons/react/24/outline';
 
-export default function Header({ isDefault = true, title = 'CHAPDO' }) {
+interface HeaderProps {
+  isDefault?: boolean;
+  title?: string;
+}
+
+export default function Header({ isDefault = true, title = 'CHAPDO' }: HeaderProps) {
   return (
     <header className="fixed top-0 w-[600px] z-10 h-[48px] flex items-center justify-between px-4 py-2 bg-white shadow-sm">
       {isDefault ? (
