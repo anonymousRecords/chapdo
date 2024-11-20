@@ -60,7 +60,9 @@ export default function BottomNavigation() {
   ];
 
   return (
-    <nav className="fixed bottom-0 w-full max-w-[600px] z-20 h-[66px] bg-white border-t border-gray-200 flex items-center justify-between px-2 sm:px-4 transition-all duration-300 ease-in-out">      {navItems.map((item) => (
+    <nav className="fixed bottom-0 w-full max-w-[600px] z-20 h-[66px] bg-white border-t border-gray-200 flex items-center justify-between px-2 sm:px-4 transition-all duration-300 ease-in-out">
+      {' '}
+      {navItems.map((item) => (
         <NavItem
           key={item.href}
           href={item.href}
