@@ -10,7 +10,7 @@ interface ChipProps {
 
 export default function Chip({ label, onDelete, deletable = false }: ChipProps) {
   return (
-    <div className="inline-flex items-center px-3 py-1 bg-black text-white text-sm font-medium rounded-full">
+    <div className="inline-flex items-center px-3 py-1 bg-black text-white font-medium rounded-full">
       {label}
       {deletable && (
         <button onClick={onDelete} className=" ml-2 focus:outline-none" aria-label="삭제">

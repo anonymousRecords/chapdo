@@ -1,0 +1,444 @@
+{
+  "object": "page",
+  "id": "1456a1ef-3afb-815c-a4e5-d6c86cf3854c",
+  "created_time": "2024-11-21T08:25:00.000Z",
+  "last_edited_time": "2024-11-21T08:39:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "1456a1ef-3afb-8034-8fbf-dcf1211ca65f"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "Tags": {
+      "id": "P%60%5DN",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "3cdba27b-5e76-461f-b45e-4d2bbc34c8db",
+          "name": "일 잘 하는 방식",
+          "color": "default"
+        }
+      ]
+    },
+    "Created": {
+      "id": "nknN",
+      "type": "date",
+      "date": {
+        "start": "2024-06-03",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "삶의 지도",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "삶의 지도",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/1456a1ef3afb815ca4e5d6c86cf3854c",
+  "public_url": null,
+  "request_id": "9db59153-43ee-405d-b2e1-4aba61ab66ff",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-800d-acb9-e7a1f259bb4c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-815c-a4e5-d6c86cf3854c"
+      },
+      "created_time": "2024-11-21T08:39:00.000Z",
+      "last_edited_time": "2024-11-21T08:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "저는 제가 개발을 할 거라고 전혀 상상하지 못했어요. 그런데 지금은 개발하는 사람이 되었답니다. 그래서 삶의 지도, 그중에서 개발과 관련된 제 삶의 지도에 대해서 이야기해 보려고 해요. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "저는 제가 개발을 할 거라고 전혀 상상하지 못했어요. 그런데 지금은 개발하는 사람이 되었답니다. 그래서 삶의 지도, 그중에서 개발과 관련된 제 삶의 지도에 대해서 이야기해 보려고 해요. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-80f2-bc91-f74a617a1758",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-815c-a4e5-d6c86cf3854c"
+      },
+      "created_time": "2024-11-21T08:39:00.000Z",
+      "last_edited_time": "2024-11-21T08:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "역사를 좋아했고 문과이기도 했고 그래서 저는 대학생 때 대외 활동으로 ‘서포터즈’가 되어 활동했답니다. 여러 서포터즈를 하더라도 공통된 활동들이 있었어요. 바로 인스타그램 팔로우 수를 모으는 거였어요. 기한 내에 팔로우 수를 늘려야 하다 보니 주변 지인들에게 팔로우를 종종 부탁하고는 했어요. 그러다 보니 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "역사를 좋아했고 문과이기도 했고 그래서 저는 대학생 때 대외 활동으로 ‘서포터즈’가 되어 활동했답니다. 여러 서포터즈를 하더라도 공통된 활동들이 있었어요. 바로 인스타그램 팔로우 수를 모으는 거였어요. 기한 내에 팔로우 수를 늘려야 하다 보니 주변 지인들에게 팔로우를 종종 부탁하고는 했어요. 그러다 보니 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "‘내가 정말 원하던 활동이 맞나?’ 의문이 들었어요.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "‘내가 정말 원하던 활동이 맞나?’ 의문이 들었어요.",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 그래서 그동안 제가 경험한 분야 말고도, 다른 분야도 경험해 보자는 생각을 했어요. 이 생각을 기점으로, 저랑은 전혀 연이 없다고 생각한 활동들에 도전해 보기 시작했어요. 로봇 만들기, 데이터 분석 등 처음 접해보는 활동일지라도 그동안 몰랐던 제 운명을 찾는다는  마음으로 여러 활동에 참여했어요.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 그래서 그동안 제가 경험한 분야 말고도, 다른 분야도 경험해 보자는 생각을 했어요. 이 생각을 기점으로, 저랑은 전혀 연이 없다고 생각한 활동들에 도전해 보기 시작했어요. 로봇 만들기, 데이터 분석 등 처음 접해보는 활동일지라도 그동안 몰랐던 제 운명을 찾는다는  마음으로 여러 활동에 참여했어요.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-80be-963d-dee105a071c4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-815c-a4e5-d6c86cf3854c"
+      },
+      "created_time": "2024-11-21T08:39:00.000Z",
+      "last_edited_time": "2024-11-21T08:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그러다가 운명의 상대를 만났어요. 바로 개발이었어요. 개발하면서 생각보다 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그러다가 운명의 상대를 만났어요. 바로 개발이었어요. 개발하면서 생각보다 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "제가 제 손으로 무언가를 만드는 걸 좋아하는 사람이라는 걸 알게 되었어요.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "제가 제 손으로 무언가를 만드는 걸 좋아하는 사람이라는 걸 알게 되었어요.",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 그래서 코딩을 딱 2년만 해보고 아니면 다른 걸 해보자 결심했어요. 물론 그 기간동안 ‘개발 그만해야 하나?’, ‘내 길이 아닌가?’라는 생각이 안 들었던 건 아니에요. 그럼에도 좋고 계속하고 싶어서, 지금도 그리고 앞으로도 개발을 하기로 마음을 먹게 되었어요. 제가 개발이 마음에 들었던 이유 중 하나로는, ‘효율적인 코드에 대한 고민’을 하는 경험 때문이었어요. 개발자라면 어떻게 하면 직관적인 코드를 작성할 수 있을지 변수명, 파일 구조 등 다양한 방면에서 고민한다고 생각해요. 이렇게 어떻게 하면 효율적일지 고민하면서 효과적으로 일을 하려고 하는 게 멋있어 보였답니다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 그래서 코딩을 딱 2년만 해보고 아니면 다른 걸 해보자 결심했어요. 물론 그 기간동안 ‘개발 그만해야 하나?’, ‘내 길이 아닌가?’라는 생각이 안 들었던 건 아니에요. 그럼에도 좋고 계속하고 싶어서, 지금도 그리고 앞으로도 개발을 하기로 마음을 먹게 되었어요. 제가 개발이 마음에 들었던 이유 중 하나로는, ‘효율적인 코드에 대한 고민’을 하는 경험 때문이었어요. 개발자라면 어떻게 하면 직관적인 코드를 작성할 수 있을지 변수명, 파일 구조 등 다양한 방면에서 고민한다고 생각해요. 이렇게 어떻게 하면 효율적일지 고민하면서 효과적으로 일을 하려고 하는 게 멋있어 보였답니다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-80f0-8f9a-c1d437e26711",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-815c-a4e5-d6c86cf3854c"
+      },
+      "created_time": "2024-11-21T08:39:00.000Z",
+      "last_edited_time": "2024-11-21T08:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그런데 저는 이 고민이 개발에만 국한되는 게 아니라는 걸 요즘 아르바이트하면서 몸소 경험하고 있어요. 저는 빵집 아르바이트를 하고 있어요. 크림빵의 경우 진열을 할 때 포장 비닐을 완전히 닫고 진열해야 해요. 이물질이 크림에 묻을 수도 있기 때문에 크림빵은 포장을 완전히 하고 진열하고, 다른 빵들은 선 진열 후 빵이 완전히 식은 후 비닐을 닫는 작업을 한답니다. 이렇게 왜 크림빵은 완전히 비닐을 닫고 진열을 하는지 이유를 알자 ‘이 빵은 완전히 포장하고 진열하는 건가?’라고 헷갈리지 않고 일의 속도가 빨라졌어요. 이런 생각의 흐름은 개발과도 닮아 있다고 생각해요. 프로젝트 기술 스택을 선정할 때, 이유를 알자 프로젝트에 더 알맞은 기술 스택을 선정할 수 있었어요. 저는 이전에는 개발에서만 이런 고민을 한다고 작은 시야를 가졌던 사람 같아요. 그런데 지금은 생각이 달라졌어요.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그런데 저는 이 고민이 개발에만 국한되는 게 아니라는 걸 요즘 아르바이트하면서 몸소 경험하고 있어요. 저는 빵집 아르바이트를 하고 있어요. 크림빵의 경우 진열을 할 때 포장 비닐을 완전히 닫고 진열해야 해요. 이물질이 크림에 묻을 수도 있기 때문에 크림빵은 포장을 완전히 하고 진열하고, 다른 빵들은 선 진열 후 빵이 완전히 식은 후 비닐을 닫는 작업을 한답니다. 이렇게 왜 크림빵은 완전히 비닐을 닫고 진열을 하는지 이유를 알자 ‘이 빵은 완전히 포장하고 진열하는 건가?’라고 헷갈리지 않고 일의 속도가 빨라졌어요. 이런 생각의 흐름은 개발과도 닮아 있다고 생각해요. 프로젝트 기술 스택을 선정할 때, 이유를 알자 프로젝트에 더 알맞은 기술 스택을 선정할 수 있었어요. 저는 이전에는 개발에서만 이런 고민을 한다고 작은 시야를 가졌던 사람 같아요. 그런데 지금은 생각이 달라졌어요.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-804d-aa78-e99939fa6456",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-815c-a4e5-d6c86cf3854c"
+      },
+      "created_time": "2024-11-21T08:39:00.000Z",
+      "last_edited_time": "2024-11-21T08:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "개발 말고도, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개발 말고도, ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "모든 분야에서 효율적으로, 다시 말해 ‘일 잘하는 방식’은 통용된다는 것을 깨닫게 된 거 같아요.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모든 분야에서 효율적으로, 다시 말해 ‘일 잘하는 방식’은 통용된다는 것을 깨닫게 된 거 같아요.",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 그리고 지금까지 제가 한 활동들도 다시금 돌아보게 되었어요. 저는 서포터즈 활동에 회의감이 느끼게 되어 개발을 시작하게 되었어요. 하지만 제가 지인들에게 인스타그램 팔로우를 부탁하는 것이 아닌, 획기적인 창작물을 통해 엄청난 마케팅을 해서 팔로우를 늘리면 회의감이 안 들었지 않았겠냐는 생각을 하게 되었어요. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 그리고 지금까지 제가 한 활동들도 다시금 돌아보게 되었어요. 저는 서포터즈 활동에 회의감이 느끼게 되어 개발을 시작하게 되었어요. 하지만 제가 지인들에게 인스타그램 팔로우를 부탁하는 것이 아닌, 획기적인 창작물을 통해 엄청난 마케팅을 해서 팔로우를 늘리면 회의감이 안 들었지 않았겠냐는 생각을 하게 되었어요. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8065-9829-d65f3989675c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-815c-a4e5-d6c86cf3854c"
+      },
+      "created_time": "2024-11-21T08:39:00.000Z",
+      "last_edited_time": "2024-11-21T08:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 지금의 저는 개발을 잘하는 사람이 되기보다는 ‘일 잘하는 사람’이 되고 싶고 시야를 넓게 가지려고 노력합니다. 그리고 과거의 저와 현재의 저는 분명 같은 사람이지만 다른 생각을 가지게 되었어요. 그래서 그 변화를 기억하고 기록으로 남기고, 앞으로 제가 변할 모습을 기대하면서 살고 있습니다. 개발을 할 거라고 전혀 생각 못 했던 것처럼 앞으로 제가 무엇을 할지 궁금하고 재미있게 살아보려고 해요.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 지금의 저는 개발을 잘하는 사람이 되기보다는 ‘일 잘하는 사람’이 되고 싶고 시야를 넓게 가지려고 노력합니다. 그리고 과거의 저와 현재의 저는 분명 같은 사람이지만 다른 생각을 가지게 되었어요. 그래서 그 변화를 기억하고 기록으로 남기고, 앞으로 제가 변할 모습을 기대하면서 살고 있습니다. 개발을 할 거라고 전혀 생각 못 했던 것처럼 앞으로 제가 무엇을 할지 궁금하고 재미있게 살아보려고 해요.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

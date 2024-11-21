@@ -1,17 +1,39 @@
 'use client';
+
+import { useEffect, useState } from 'react';
 import TILCalendar from '@/components/til/til-calendar/til-calendar';
 
-const tilEntries = [
-  { date: new Date(2024, 10, 15), status: 'completed' },
-  { date: new Date(2024, 10, 20), status: 'new' },
-  { date: new Date(2024, 10, 25) },
-];
+interface TILEntry {
+  date: Date;
+  status: 'completed';
+  title: string;
+  blocks: any[];
+  tags: Array<{
+    id: string;
+    name: string;
+    color: string;
+  }>;
+}
 
 export default function TilPage() {
-  function handleDateClick(date: Date) {
-    console.log('Clicked date:', date);
-    // 여기에서 선택된 날짜에 대한 추가 작업을 수행할 수 있습니다.
-  }
+  const [tilEntries, setTilEntries] = useState<TILEntry[]>([]);
 
-  return <TILCalendar tilEntries={tilEntries} onDateClick={handleDateClick} />;
+  useEffect(() => {
+    fetch('/api/til')
+      .then(res => res.json())
+      .then(data => {
+        const entriesWithDates = data.entries.map((entry: any) => ({
+          ...entry,
+          date: new Date(entry.date)
+        }));
+        setTilEntries(entriesWithDates);
+      })
+      .catch(error => console.error('Error fetching TIL entries:', error));
+  }, []);
+
+  return (
+    <div className='pt-10 md:pt-20'>
+      <TILCalendar tilEntries={tilEntries} />
+    </div>
+  );
 }
