@@ -28,6 +28,8 @@ export interface Post {
   slug?: string;
 }
 
+export const dynamic = 'force-dynamic';
+
 async function getPosts(): Promise<Post[]> {
   const baseUrl =
     process.env.NODE_ENV === 'production' ? 'https://chapdo.vercel.app' : 'http://localhost:3000';
