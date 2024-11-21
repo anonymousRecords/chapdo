@@ -1,0 +1,66 @@
+import PostTile from '@/components/posts/post-tile/post-tile';
+import { Suspense } from 'react';
+
+interface Tag {
+  id: string;
+  name: string;
+  color: string;
+}
+
+export interface Post {
+  id: string;
+  title: string;
+  created_time: string;
+  blocks: any[];
+  properties: {
+    Tags: {
+      type: 'multi_select';
+      multi_select: Tag[];
+    };
+    Name: {
+      type: 'title';
+      title: Array<{
+        plain_text: string;
+      }>;
+    };
+  };
+  yearMonth?: string;
+  slug?: string;
+}
+
+async function getPosts(): Promise<Post[]> {
+  // 개발 환경과 프로덕션 환경에서 모두 작동하도록 절대 경로 사용
+  const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
+  const host = process.env.VERCEL_URL || 'localhost:3000';
+
+  const res = await fetch(`${protocol}://${host}/api/posts`, {
+    next: { revalidate: 60 }, // 60초마다 재검증
+  });
+
+  if (!res.ok) {
+    throw new Error('Failed to fetch posts');
+  }
+
+  return res.json();
+}
+
+export default async function PostPage() {
+  const posts = await getPosts();
+  return (
+    <div className="flex flex-col min-h-screen w-full">
+      {/* TODO : 검색창 추가 */}
+      <section className="grid grid-cols-2 w-full h-full">
+        <Suspense fallback={<div>에베베베 로딩딩딩</div>}>
+          {posts.map((post) => (
+            <PostTile
+              key={post.id}
+              title={post.properties.Name.title[0].plain_text}
+              tags={post.properties.Tags.multi_select}
+              slug={post.slug || ''}
+            />
+          ))}
+        </Suspense>
+      </section>
+    </div>
+  );
+}

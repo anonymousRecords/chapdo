@@ -1,0 +1,9 @@
+reviews:
+  enabled: true
+  review_status: true
+  auto_review:
+    enabled: true
+    ignore_title_patterns:
+      - '^WIP:.*'
+    base_branches:
+      - develop
