@@ -29,7 +29,8 @@ export interface Post {
 }
 
 async function getPosts(): Promise<Post[]> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+  const baseUrl =
+    process.env.NODE_ENV === 'production' ? 'https://chapdo.vercel.app' : 'http://localhost:3000';
   const res = await fetch(`${baseUrl}/api/posts`, {
     cache: 'force-cache',
     next: { revalidate: 60 },
