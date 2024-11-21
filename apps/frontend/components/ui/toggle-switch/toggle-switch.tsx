@@ -13,8 +13,8 @@ export default function ToggleSwitch({ leftLabel, rightLabel, onChange }: Toggle
 
   const toggleSwitch = useCallback(() => {
     const newValue = !isChecked;
-      setIsChecked(newValue);
-      onChange?.(newValue);
+    setIsChecked(newValue);
+    onChange?.(newValue);
   }, [isChecked, onChange]);
 
   return (

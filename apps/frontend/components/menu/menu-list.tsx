@@ -1,9 +1,8 @@
-'use client'
+'use client';
 
 import { motion } from 'motion/react';
 import { MENU_LIST } from '@/constants/menu';
 import { MenuItem } from './menu-item';
-
 
 const containerVariants = {
   hidden: { opacity: 0 },

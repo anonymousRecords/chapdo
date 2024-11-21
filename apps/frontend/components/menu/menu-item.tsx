@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { motion } from 'motion/react';
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
