@@ -29,12 +29,10 @@ export interface Post {
 }
 
 async function getPosts(): Promise<Post[]> {
-  // 개발 환경과 프로덕션 환경에서 모두 작동하도록 절대 경로 사용
-  const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
-  const host = process.env.VERCEL_URL || 'localhost:3000';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
 
-  const res = await fetch(`${protocol}://${host}/api/posts`, {
-    next: { revalidate: 60 }, // 60초마다 재검증
+  const res = await fetch(`${baseUrl}/api/posts`, {
+    next: { revalidate: 60 },
   });
 
   if (!res.ok) {

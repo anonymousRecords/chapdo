@@ -34,16 +34,14 @@ export interface Post {
   slug?: string;
 }}
 
-async function getPost(slug: string): Promise<Post> {
-  const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http';
-  const host = process.env.VERCEL_URL || 'localhost:3000';
+async function getPost(slug:string): Promise<Post> {
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
 
-  const res = await fetch(`${protocol}://${host}/api/posts/${slug}`, {
+  const res = await fetch(`${baseUrl}/api/posts/${slug}`, {
     next: { revalidate: 60 },
   });
 
   if (!res.ok) {
-    if (res.status === 404) notFound();
     throw new Error('Failed to fetch post');
   }
 
