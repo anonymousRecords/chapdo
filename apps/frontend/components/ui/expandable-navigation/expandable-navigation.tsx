@@ -15,7 +15,7 @@ export default function ExpandableNavbar() {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full bg-white shadow-lg z-20">
+    <div className="w-full bg-white shadow-lg">
       <div className="flex items-center justify-between px-4 h-9">
         <button 
           onClick={toggleExpand}
