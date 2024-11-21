@@ -90,7 +90,11 @@ export default function TagRecommendations({
           >
             <Link href={post.href} className="block h-full">
               <div className="h-40 overflow-hidden">
-                <img src={post.image} alt={post.title} className="w-full h-full object-cover rounded-tl-lg rounded-tr-lg" />
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className="w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
+                />
               </div>
               <div className="p-4">
                 <h3 className="font-bold mb-1 line-clamp-2">{post.title}</h3>

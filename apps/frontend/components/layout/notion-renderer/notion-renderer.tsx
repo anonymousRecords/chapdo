@@ -16,9 +16,7 @@ export const NotionRenderer = ({
     return <div>No content available</div>;
   }
 
-  const ErrorComponent = () => (
-    <div>에러러</div>
-  );
+  const ErrorComponent = () => <div>에러러</div>;
 
   return (
     <ErrorBoundary errorComponent={ErrorComponent}>

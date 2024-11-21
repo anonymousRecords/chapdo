@@ -20,19 +20,19 @@ export default function TilPage() {
 
   useEffect(() => {
     fetch('/api/til')
-      .then(res => res.json())
-      .then(data => {
+      .then((res) => res.json())
+      .then((data) => {
         const entriesWithDates = data.entries.map((entry: any) => ({
           ...entry,
-          date: new Date(entry.date)
+          date: new Date(entry.date),
         }));
         setTilEntries(entriesWithDates);
       })
-      .catch(error => console.error('Error fetching TIL entries:', error));
+      .catch((error) => console.error('Error fetching TIL entries:', error));
   }, []);
 
   return (
-    <div className='pt-10 md:pt-20'>
+    <div className="pt-10 md:pt-20">
       <TILCalendar tilEntries={tilEntries} />
     </div>
   );

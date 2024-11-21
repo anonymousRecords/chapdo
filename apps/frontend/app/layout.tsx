@@ -45,7 +45,7 @@ export default function RootLayout({
       <body className="flex justify-center bg-gray-100">
         <div className="w-full max-w-[600px] min-h-screen bg-white shadow-md relative">
           <Header />
-          <div className='mt-[48px] mb-[66px]'>{children}</div>
+          <div className="mt-[48px] mb-[66px]">{children}</div>
           <BottomNavigation />
         </div>
       </body>

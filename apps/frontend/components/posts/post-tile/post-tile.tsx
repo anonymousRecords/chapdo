@@ -14,13 +14,7 @@ interface Tag {
   color: string;
 }
 
-export default function PostTile({
-  title,
-  content,
-  tags,
-  slug,
-  maxContentLength = 150,
-}: PostTileProps) {
+export default function PostTile({ title, content, tags, slug }: PostTileProps) {
   return (
     <Link href={`/post/${slug}`} className="w-full">
       <div className="h-full md:h-[300px] bg-white hover:bg-gray-50 border-[0.3px] border-black p-6 overflow-hidden flex flex-col justify-between">

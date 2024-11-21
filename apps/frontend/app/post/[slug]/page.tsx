@@ -1,4 +1,3 @@
-import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { NotionRenderer } from '@/components/layout/notion-renderer/notion-renderer';
 
@@ -28,13 +27,14 @@ export interface Post {
       type: 'date';
       date: {
         start: string;
-    }
+      };
+    };
+    yearMonth?: string;
+    slug?: string;
   };
-  yearMonth?: string;
-  slug?: string;
-}}
+}
 
-async function getPost(slug:string): Promise<Post> {
+async function getPost(slug: string): Promise<Post> {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
 
   const res = await fetch(`${baseUrl}/api/posts/${slug}`, {
@@ -55,10 +55,7 @@ export default async function PostDetailPage({ params }: { params: { slug: strin
     <div className="min-h-screen bg-white">
       <main className="max-w-3xl mx-auto px-4 pt-4 pb-36">
         {/* 뒤로 가기 버튼 */}
-        <Link
-          href="/post"
-          className="inline-flex items-center text-gray-600 hover:text-black mb-6"
-        >
+        <Link href="/post" className="inline-flex items-center text-gray-600 hover:text-black mb-6">
           ←
         </Link>
 

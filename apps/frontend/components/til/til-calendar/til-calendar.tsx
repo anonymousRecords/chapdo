@@ -3,8 +3,7 @@
 import { NotionRenderer } from '@/components/layout/notion-renderer/notion-renderer';
 import Chip from '@/components/ui/chip/chip';
 import { ChevronDownIcon } from '@heroicons/react/24/solid';
-import { Notion } from '@notionpresso/react';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import { Drawer } from 'vaul';
 
 interface Tag {
@@ -71,7 +70,7 @@ export default function TILCalendar({ tilEntries }: TILCalendarProps) {
       );
 
       let cellClass = 'relative h-12 w-12 flex items-center justify-center text-sm';
-      let statusElement = null;
+      const statusElement = null;
 
       if (tilEntry) {
         if (tilEntry.status === 'completed') {
