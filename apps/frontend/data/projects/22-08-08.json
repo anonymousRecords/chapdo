@@ -1,0 +1,938 @@
+{
+  "object": "page",
+  "id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8",
+  "created_time": "2024-11-21T08:40:00.000Z",
+  "last_edited_time": "2024-11-21T12:45:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "1456a1ef-3afb-8034-8fbf-dcf1211ca65f"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "Tags": {
+      "id": "P%60%5DN",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4be31dce-9b97-4933-9c79-04d556e63d08",
+          "name": "다짐",
+          "color": "pink"
+        }
+      ]
+    },
+    "Created": {
+      "id": "nknN",
+      "type": "date",
+      "date": {
+        "start": "2022-08-08",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "나는 왜 개발자를 꿈꾸게 되었을까?",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "나는 왜 개발자를 꿈꾸게 되었을까?",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/1456a1ef3afb8095a4aec715d9af63e8",
+  "public_url": null,
+  "request_id": "408a82ac-a322-40bd-bf83-e986cc9b20ec",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8056-8678-e11de7b51632",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "개발에 관심을 가지게 된 이유는 무엇일까",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개발에 관심을 가지게 된 이유는 무엇일까",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8057-8c33-d14dfac82594",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "역사를 좋아하던 찐문과생",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "역사를 좋아하던 찐문과생",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8076-a3d9-d178b2ed6125",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나는 찐문과생이다. 찐문과생이면서 역사를 참 좋아하였다. 역사를 좋아하는 이유에 대해 이야기해보자면 다음과 같다. 우리는 살다보면 선택의 기로에 놓이게 된다. 나는 그 순간마다 어떤 선택을 해야 후회를 하지 않을까 고민을 많이 하였다. 그런 나에게 있어서 역사는 선택의 기로에서 나침반 같은 존재였다. 역사 속 인물들의 삶 그리고 사건들을 통해 나는 그들을 교훈 삼아 선택을 했던 거 같다. 특별한 사례를 들어 이야기하면 참 좋을 거 같은데, 아쉽게도 마땅한 사례가 생각나지는 않는다. 이건 두고두고 생각하며 적절한 사례를 한 번 찾아보아야 겠다. 아무튼 나는 역사를 좋아하며 당연히 암기하는 것도 좋아했다. 그렇게 자연스럽게 문과생이 되었고 문과의 진로를 꿈꾸게 되었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나는 찐문과생이다. 찐문과생이면서 역사를 참 좋아하였다. 역사를 좋아하는 이유에 대해 이야기해보자면 다음과 같다. 우리는 살다보면 선택의 기로에 놓이게 된다. 나는 그 순간마다 어떤 선택을 해야 후회를 하지 않을까 고민을 많이 하였다. 그런 나에게 있어서 역사는 선택의 기로에서 나침반 같은 존재였다. 역사 속 인물들의 삶 그리고 사건들을 통해 나는 그들을 교훈 삼아 선택을 했던 거 같다. 특별한 사례를 들어 이야기하면 참 좋을 거 같은데, 아쉽게도 마땅한 사례가 생각나지는 않는다. 이건 두고두고 생각하며 적절한 사례를 한 번 찾아보아야 겠다. 아무튼 나는 역사를 좋아하며 당연히 암기하는 것도 좋아했다. 그렇게 자연스럽게 문과생이 되었고 문과의 진로를 꿈꾸게 되었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-806c-9901-fdb7687f3655",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "내가 가는 길이 맞는 길인가?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "내가 가는 길이 맞는 길인가?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-805d-8dae-d2eb70424fcf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "대학교에 진학하면서 나의 목표는 최대한 많은 것들을 직접 경험해보자라는 것이었다. 힘들었던 수험생활 한풀이라도 하듯이 나는 이것저것 아주 다양한 경험들을 해보기 시작하였다. 화보 촬영, 동영상 편집, 외국인 유학생 멘토링 등 분야를 막론하고 관심이 간다면 무조건 체험해보았다. 고민보다 실천을 우선시하였던 이유는 내 성격이 확고한 취향이 있기보다는 두루두루 좋아하는 성격이기 때문이다. 그래서 직접 경험함으로써 나에게 맞는 것이 무엇인지 알아가 보았다. 아무래도 문과생이다보니 문과와 관련이 깊은 활동들이 비중을 많이 차지하게 되었다. 그러면서 자연스럽게 서포터즈 활동을 하게 되었다. 물론 정말 의미 있는 활동들을 하는 서포터즈들도 많이 존재한다. 하지만 내가 활동했던 서포터즈는 ‘댓글 알바'같은 느낌이 강하였다. 분명 가슴 뛰는 활동들을 하고 싶어서 지원을 하였는데, 막상 내가 하고있는 일들은 내 생각과는 괴리가 컸다. 물론 주어진 환경을 변화시키고자 색다른 시도를 해볼 수도 있다. 하지만 나는 내가 무엇을 좋아하는지에 다시금 생각을 해보게 되었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "대학교에 진학하면서 나의 목표는 최대한 많은 것들을 직접 경험해보자라는 것이었다. 힘들었던 수험생활 한풀이라도 하듯이 나는 이것저것 아주 다양한 경험들을 해보기 시작하였다. 화보 촬영, 동영상 편집, 외국인 유학생 멘토링 등 분야를 막론하고 관심이 간다면 무조건 체험해보았다. 고민보다 실천을 우선시하였던 이유는 내 성격이 확고한 취향이 있기보다는 두루두루 좋아하는 성격이기 때문이다. 그래서 직접 경험함으로써 나에게 맞는 것이 무엇인지 알아가 보았다. 아무래도 문과생이다보니 문과와 관련이 깊은 활동들이 비중을 많이 차지하게 되었다. 그러면서 자연스럽게 서포터즈 활동을 하게 되었다. 물론 정말 의미 있는 활동들을 하는 서포터즈들도 많이 존재한다. 하지만 내가 활동했던 서포터즈는 ‘댓글 알바'같은 느낌이 강하였다. 분명 가슴 뛰는 활동들을 하고 싶어서 지원을 하였는데, 막상 내가 하고있는 일들은 내 생각과는 괴리가 컸다. 물론 주어진 환경을 변화시키고자 색다른 시도를 해볼 수도 있다. 하지만 나는 내가 무엇을 좋아하는지에 다시금 생각을 해보게 되었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8075-8c45-cb0dd6550765",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "찰나의 몰입하는 순간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "찰나의 몰입하는 순간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8009-89dd-c2138fb045dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "<유퀴즈 온 더 블록>이라는 방송을 나는 종종 보고는 한다. 그리고 그 프로그램에는 김은주 구글 수석 디자이너가 출연하신 회차가 있다. 워낙 대단하신 분들이 많이 출연하는 프로그램이라서, 처음에는 수많은 분들 중 하나라는 느낌이었다. 하지만 방송에서 하신 말씀이 머릿 속에 맴돌면서 나는 그 분이 쓰신 책도 읽게 되었다. 여러 인상 깊은 이야기들이 있었지만, 지금 이 글과는 다음 이야기가 가장 밀접한 관계를 가진다고 본다. 사람들은 김은주 디자이너에게 하고 있는 일을 만족하냐고 물으면 디자이너께서는 만족한다고 답변한다고 하셨다. 그러면 사람들은 어떻게 일을 그렇게나 좋아할 수 있냐고 묻는다고 한다. 김은주 디자이너의 답변은 바로 이렇다. 일을 할 때 모든 순간들이 행복하지는 않는다고. 그 모든 순간들 중 한 순간이라도 재미를 느낀다면 본인은 성공한 것이라고 생각한다고 하였다. 내가 개발을 시작한다고 하였을 때 사람들은 나에게 왜 개발을 시작하게 되었냐고 물어보았다. 물론 처음에는 수치화의 매력에 빠졌다고 대답을 하였다. 정성적인 표현을 즐겨하던 나는 당시 정량적인 표현의 효율성에 매료되었기 때문이다. 하지만 지금은 그때와의 답변과 달라졌다. 그냥 코딩을 할 때 몰입하는 순간이 나는 좋은 거 같다. 써놓고 보면 코딩과 사랑에라도 빠진 사람같지만, 나도 코딩이 힘든 순간들이 아주 많다. 코딩을 할 때면 오류 때문에 답답하거나 공부해야 할 방대한 양에 겁이 나는 순간도 있다. 그럼에도 코딩에 몰입하는 그 순간이 좋아 나는 코딩을 계속하고 싶다. 처음 코딩을 시작했을 때와 지금의 답변이 달라진 것처럼 코딩을 하는 이유는 시간이 지남에 따라 달라질 수도 있다. 하지만 지금 이 글을 쓰는 나는 짧은 순간일지라도 몰입해서 코딩하는 시간이 좋아 코딩을 하고 개발자라는 꿈을 꾸는 것 같다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "<유퀴즈 온 더 블록>이라는 방송을 나는 종종 보고는 한다. 그리고 그 프로그램에는 김은주 구글 수석 디자이너가 출연하신 회차가 있다. 워낙 대단하신 분들이 많이 출연하는 프로그램이라서, 처음에는 수많은 분들 중 하나라는 느낌이었다. 하지만 방송에서 하신 말씀이 머릿 속에 맴돌면서 나는 그 분이 쓰신 책도 읽게 되었다. 여러 인상 깊은 이야기들이 있었지만, 지금 이 글과는 다음 이야기가 가장 밀접한 관계를 가진다고 본다. 사람들은 김은주 디자이너에게 하고 있는 일을 만족하냐고 물으면 디자이너께서는 만족한다고 답변한다고 하셨다. 그러면 사람들은 어떻게 일을 그렇게나 좋아할 수 있냐고 묻는다고 한다. 김은주 디자이너의 답변은 바로 이렇다. 일을 할 때 모든 순간들이 행복하지는 않는다고. 그 모든 순간들 중 한 순간이라도 재미를 느낀다면 본인은 성공한 것이라고 생각한다고 하였다. 내가 개발을 시작한다고 하였을 때 사람들은 나에게 왜 개발을 시작하게 되었냐고 물어보았다. 물론 처음에는 수치화의 매력에 빠졌다고 대답을 하였다. 정성적인 표현을 즐겨하던 나는 당시 정량적인 표현의 효율성에 매료되었기 때문이다. 하지만 지금은 그때와의 답변과 달라졌다. 그냥 코딩을 할 때 몰입하는 순간이 나는 좋은 거 같다. 써놓고 보면 코딩과 사랑에라도 빠진 사람같지만, 나도 코딩이 힘든 순간들이 아주 많다. 코딩을 할 때면 오류 때문에 답답하거나 공부해야 할 방대한 양에 겁이 나는 순간도 있다. 그럼에도 코딩에 몰입하는 그 순간이 좋아 나는 코딩을 계속하고 싶다. 처음 코딩을 시작했을 때와 지금의 답변이 달라진 것처럼 코딩을 하는 이유는 시간이 지남에 따라 달라질 수도 있다. 하지만 지금 이 글을 쓰는 나는 짧은 순간일지라도 몰입해서 코딩하는 시간이 좋아 코딩을 하고 개발자라는 꿈을 꾸는 것 같다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8081-a01f-cef08fe532b5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나는 왜 프론트엔드가 좋을까",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나는 왜 프론트엔드가 좋을까",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-80a1-a271-e6b299399cc0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "눈에 보이는 것들이 아직은 좋은 나이",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "눈에 보이는 것들이 아직은 좋은 나이",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8009-988b-cbd4d89fed8c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나는 지금 개발자 중에서도 프론트엔드 개발자가 되고 싶다. 단순한 이유를 이야기하자면 나는 눈에 보이는 것들이 좋기 때문이다. 아직 백엔드를 제대로 공부해본 적이 없어서 섣부른 판단일 수도 있다. 하지만 지금까지 보았을 때 내 성향 상 프론트엔드가 더 적합하다고 느낀다. 단순한 흥미 차원에서 한 발자국 확신으로 다가가게 된 경험 있다. 나는 코딩 교육을 받으면서 백엔드를 희망하는 팀원들을 만나게 되었다. 팀원들과 내가 차이를 보였던 부분으로 크게 두 가지 뽑아볼 수 있다. 먼저 수치에 대한 흥미이다. 백엔드 직무를 꿈꾸는 팀원들은 웹 사이트들 중에서도 수치로 가득한 사이트를 좋아하였다. 예를 들어 표와 차트로 가득한 사이트말이다. 그런데 나는 그런 사이트보다는 다양한 효과나 사용자로 하여금 흥미를 이끌어낼 수 있는 사이트에 흥미가 많다. 다음으로 수업 내용에 대한 흥미이다. mongoDB를 배울 때 나는 그냥 그랬다. 별 감흥 없이 수업을 따라갔다. 그리고 React를 배울 때 내가 쓴 코드를 바로 브라우저에서 확인할 수 있으니 너무 재미있었다. 당연히 팀원들도 나랑 같을 거라고 생각하였다. 하지만 정반대였다. 백엔드 팀원들은 mongoDB 때는 수업이 너무 재미있었는데, React는 재미가 없다고 하였다. 이 경험을 통해서 나는 내가 프론트엔드에 더 적합한 사람이 아닌가 생각을 하게 되었다. 그래서 프론트엔드 개발자를 꿈꾸며 달려 나아가고 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나는 지금 개발자 중에서도 프론트엔드 개발자가 되고 싶다. 단순한 이유를 이야기하자면 나는 눈에 보이는 것들이 좋기 때문이다. 아직 백엔드를 제대로 공부해본 적이 없어서 섣부른 판단일 수도 있다. 하지만 지금까지 보았을 때 내 성향 상 프론트엔드가 더 적합하다고 느낀다. 단순한 흥미 차원에서 한 발자국 확신으로 다가가게 된 경험 있다. 나는 코딩 교육을 받으면서 백엔드를 희망하는 팀원들을 만나게 되었다. 팀원들과 내가 차이를 보였던 부분으로 크게 두 가지 뽑아볼 수 있다. 먼저 수치에 대한 흥미이다. 백엔드 직무를 꿈꾸는 팀원들은 웹 사이트들 중에서도 수치로 가득한 사이트를 좋아하였다. 예를 들어 표와 차트로 가득한 사이트말이다. 그런데 나는 그런 사이트보다는 다양한 효과나 사용자로 하여금 흥미를 이끌어낼 수 있는 사이트에 흥미가 많다. 다음으로 수업 내용에 대한 흥미이다. mongoDB를 배울 때 나는 그냥 그랬다. 별 감흥 없이 수업을 따라갔다. 그리고 React를 배울 때 내가 쓴 코드를 바로 브라우저에서 확인할 수 있으니 너무 재미있었다. 당연히 팀원들도 나랑 같을 거라고 생각하였다. 하지만 정반대였다. 백엔드 팀원들은 mongoDB 때는 수업이 너무 재미있었는데, React는 재미가 없다고 하였다. 이 경험을 통해서 나는 내가 프론트엔드에 더 적합한 사람이 아닌가 생각을 하게 되었다. 그래서 프론트엔드 개발자를 꿈꾸며 달려 나아가고 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-80bc-8d52-f772e8091ef4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2학기 휴학이 필요한 이유",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2학기 휴학이 필요한 이유",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8099-ba14-d88e6a1bca39",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "온전히 코딩과 마주할 시간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "온전히 코딩과 마주할 시간",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8073-adde-d2d4434e6fe3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나는 2학기 휴학을 고민하고 있고 휴학하는 것이 거의 반확정된 것 같다. 휴학을 하더라도 왜 휴학을 하는지 깊이 고민해볼 필요를 느꼈다. 그래야 후회남지 않게 휴학하는 동안 알차게 생활할 수 있을거라고 생각하기 때문이다. 올해 초 그러니까 2022년 1월 즈음 나는 코딩을 할 거라고 공표하고 코딩 공부를 시작하였다. 그리고 1학기가 끝난 지금 내가 지내온 생활을 돌이켜 보면 정말 코딩을 하려고 한 사람이 맞을까 의구심이 든다. 분명 코딩을 한다고 하였고 코딩 동아리에도 가입하고 코딩을 안 했다고 하기에는 어렵다. 그렇다고 코딩을 했다고 하기에는 뭔가 석연치 않은 구석들이 있었다. 나의 2022년도 1학기에 대해 간단히 후기를 남기자면 다른 것들에 시간 쓰느라 정작 코딩에는 소홀했다는 것이다. 내가 코딩만에 집중하지 못 하고 다소 산만했던 이유에 대해 생각을 해보았다. 그 이유는 두려움이었던 거 같다. 전공생도 아니고 수험생활의 흔적들 그리고 아직은 낯선 코딩. 나는 코딩에 실패했을 때의 두려움 때문에 코딩에만 집중하지 못하고 다양한 곳에 발을 걸쳐두었던 것 같다. 그러다보니 코딩 실력이 제대로 늘지 못했던 것 같다. 막연하게 나의 코딩 상태를 알고 있으면서 이번 양재 AI 허브 교육을 하게 되면서 직시하게 된 것 같았다. 물론 부족한 코딩 실력을 마주한 그 순간은 매우 괴로웠다. 하지만 내 상태를 제대로 진단하고 나니 제대로 공부해보고 싶다는 마음이 싹 트기 시작하였다. 교육을 받으면서 나는 이제서야 제대로 코딩을 하고 있구나 느낄 수 있었다. 그리고 재미가 붙었을 때 코딩을 정말 열심히 해봐야겠다고 마음 먹게 되었다. 나는 이번 2학기에 코딩과 온전히 마주해보고 싶다. 저번 1학기에는 실패의 두려움 때문에 코딩과 나 사이에 많은 것들이 끼어있었던 것 같다. 하지만 이번에는 두려움을 이겨내고 코딩만을 바라보고 코딩에 집중해보는 시간을 가져보고 싶다. 이게 내가 2학기 휴학을 결심하게 된 이유이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나는 2학기 휴학을 고민하고 있고 휴학하는 것이 거의 반확정된 것 같다. 휴학을 하더라도 왜 휴학을 하는지 깊이 고민해볼 필요를 느꼈다. 그래야 후회남지 않게 휴학하는 동안 알차게 생활할 수 있을거라고 생각하기 때문이다. 올해 초 그러니까 2022년 1월 즈음 나는 코딩을 할 거라고 공표하고 코딩 공부를 시작하였다. 그리고 1학기가 끝난 지금 내가 지내온 생활을 돌이켜 보면 정말 코딩을 하려고 한 사람이 맞을까 의구심이 든다. 분명 코딩을 한다고 하였고 코딩 동아리에도 가입하고 코딩을 안 했다고 하기에는 어렵다. 그렇다고 코딩을 했다고 하기에는 뭔가 석연치 않은 구석들이 있었다. 나의 2022년도 1학기에 대해 간단히 후기를 남기자면 다른 것들에 시간 쓰느라 정작 코딩에는 소홀했다는 것이다. 내가 코딩만에 집중하지 못 하고 다소 산만했던 이유에 대해 생각을 해보았다. 그 이유는 두려움이었던 거 같다. 전공생도 아니고 수험생활의 흔적들 그리고 아직은 낯선 코딩. 나는 코딩에 실패했을 때의 두려움 때문에 코딩에만 집중하지 못하고 다양한 곳에 발을 걸쳐두었던 것 같다. 그러다보니 코딩 실력이 제대로 늘지 못했던 것 같다. 막연하게 나의 코딩 상태를 알고 있으면서 이번 양재 AI 허브 교육을 하게 되면서 직시하게 된 것 같았다. 물론 부족한 코딩 실력을 마주한 그 순간은 매우 괴로웠다. 하지만 내 상태를 제대로 진단하고 나니 제대로 공부해보고 싶다는 마음이 싹 트기 시작하였다. 교육을 받으면서 나는 이제서야 제대로 코딩을 하고 있구나 느낄 수 있었다. 그리고 재미가 붙었을 때 코딩을 정말 열심히 해봐야겠다고 마음 먹게 되었다. 나는 이번 2학기에 코딩과 온전히 마주해보고 싶다. 저번 1학기에는 실패의 두려움 때문에 코딩과 나 사이에 많은 것들이 끼어있었던 것 같다. 하지만 이번에는 두려움을 이겨내고 코딩만을 바라보고 코딩에 집중해보는 시간을 가져보고 싶다. 이게 내가 2학기 휴학을 결심하게 된 이유이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-80d2-9542-e6f76694e345",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2학기를 앞둔 마음가짐",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2학기를 앞둔 마음가짐",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-801a-a86e-dd8445182aef",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "말로는 정말 코딩을 좋아하고 열심히 할 것처럼 표현하지만 실상은 그렇지 않다. 코딩이 하기 싫을 때도 있고 코딩에 실패하면 어떡하지 두려움에 휩싸이기도 한다. 그럼에도 나는 아직 짧은 순간일지라도 코딩에 몰입하는 순간이 좋고 그 순간 나는 엄청난 재미를 느낀다. 지금 이 시기가 사회로 나아가기 전 마지막 준비를 하는 순간이라고 나는 생각한다. 이전보다 조금은 더 단단해질 필요가 있다고 본다. 그리고 단단해지기 위해서는 나에 대해서 깊은 탐색을 해야한다고 생각한다. 나에 대해 계속해서 질문하고 나에 대해 알아가고자 노력할 것이다. 물론 앞서 언급한 것처럼 나약해진 순간들도 있을 것이다. 그럼에도 지난 시간보다 단단해진 사람이 되고 싶다는 이 글을 되뇌이며 이번 2학기를 무탈하게 보내고 싶다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "말로는 정말 코딩을 좋아하고 열심히 할 것처럼 표현하지만 실상은 그렇지 않다. 코딩이 하기 싫을 때도 있고 코딩에 실패하면 어떡하지 두려움에 휩싸이기도 한다. 그럼에도 나는 아직 짧은 순간일지라도 코딩에 몰입하는 순간이 좋고 그 순간 나는 엄청난 재미를 느낀다. 지금 이 시기가 사회로 나아가기 전 마지막 준비를 하는 순간이라고 나는 생각한다. 이전보다 조금은 더 단단해질 필요가 있다고 본다. 그리고 단단해지기 위해서는 나에 대해서 깊은 탐색을 해야한다고 생각한다. 나에 대해 계속해서 질문하고 나에 대해 알아가고자 노력할 것이다. 물론 앞서 언급한 것처럼 나약해진 순간들도 있을 것이다. 그럼에도 지난 시간보다 단단해진 사람이 되고 싶다는 이 글을 되뇌이며 이번 2학기를 무탈하게 보내고 싶다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8011-a513-c21de679aaf4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "학원은 나에게 필요한 존재가 맞을까",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "학원은 나에게 필요한 존재가 맞을까",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-80ea-8ecb-d4f2e105a184",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "본래 2학기 휴학을 고민하며 학원을 다닐까 생각을 하였다. 이번 양재 AI 허브 교육을 통해서 느낀 점은 결국 코딩은 혼자 하는 것이라는 것이다. 교육 자료나 강사님은 도움을 주는 존재이지 결국은 내가 해야한다. 교육에서 만족을 느낀 부분은 코딩에 대한 시야가 넓어지고 코딩에 투자하는 시간을 반강제적으로나마 확보하게 해준다는 점이다. 나는 후자에 조금 더 중점을 두고 코딩 학원에 대해 고민하게 되었다. 고민을 하면서 내 주변 개발자 분들에게 조언을 구하였다. 그리고 다양한 조언들 속에서 내가 믿고 의지하는 조언자 분께서 새로운 방안을 제시해주셨다. 코딩 학원에 의지하기 보다는 오로지 내 힘으로 발돋움 해보라는 것이다. 알고리즘 공부와 더불어 내 프로젝트를 완성해보라는 것이다. 나한테는 정말 매력적인 이야기로 들렸다. 당시에 강제성 부재에 대한 두려움도 있었지만, 용기를 가져보라는 이야기에서 이 부분은 해소된 거 같다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "본래 2학기 휴학을 고민하며 학원을 다닐까 생각을 하였다. 이번 양재 AI 허브 교육을 통해서 느낀 점은 결국 코딩은 혼자 하는 것이라는 것이다. 교육 자료나 강사님은 도움을 주는 존재이지 결국은 내가 해야한다. 교육에서 만족을 느낀 부분은 코딩에 대한 시야가 넓어지고 코딩에 투자하는 시간을 반강제적으로나마 확보하게 해준다는 점이다. 나는 후자에 조금 더 중점을 두고 코딩 학원에 대해 고민하게 되었다. 고민을 하면서 내 주변 개발자 분들에게 조언을 구하였다. 그리고 다양한 조언들 속에서 내가 믿고 의지하는 조언자 분께서 새로운 방안을 제시해주셨다. 코딩 학원에 의지하기 보다는 오로지 내 힘으로 발돋움 해보라는 것이다. 알고리즘 공부와 더불어 내 프로젝트를 완성해보라는 것이다. 나한테는 정말 매력적인 이야기로 들렸다. 당시에 강제성 부재에 대한 두려움도 있었지만, 용기를 가져보라는 이야기에서 이 부분은 해소된 거 같다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-8001-91f9-f83425e35b43",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "어떤 개발자가 되고 싶은가",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "어떤 개발자가 되고 싶은가",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1456a1ef-3afb-806b-a49b-cddd8f590273",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1456a1ef-3afb-8095-a4ae-c715d9af63e8"
+      },
+      "created_time": "2024-11-21T12:42:00.000Z",
+      "last_edited_time": "2024-11-21T12:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "개발자마다 자신이 어떤 개발자가 되고 싶은지 한 가지씩은 있는 거 같다. 내 주변에만 해도 성장하는 개발자, 열정을 품은 개발자 등 자신을 표현하는 여러 마음가짐들이 있다. 나에게 나는 어떤 개발자가 되고 싶냐고 묻는다면, 아직은 모르겠다. 코딩을 왜 하게 되었지 그리고 왜 좋은지 점점 질문에 대해 답을 알아가고는 있지만 이 질문만큼은 아직 답을 찾지 못 했다. 그래서 이번 2학기에는 개발자다운 개발자가 되었을 때의 내 모습을 그리며 어떤 모습이길 원하는지 알아가 보아야 겠다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개발자마다 자신이 어떤 개발자가 되고 싶은지 한 가지씩은 있는 거 같다. 내 주변에만 해도 성장하는 개발자, 열정을 품은 개발자 등 자신을 표현하는 여러 마음가짐들이 있다. 나에게 나는 어떤 개발자가 되고 싶냐고 묻는다면, 아직은 모르겠다. 코딩을 왜 하게 되었지 그리고 왜 좋은지 점점 질문에 대해 답을 알아가고는 있지만 이 질문만큼은 아직 답을 찾지 못 했다. 그래서 이번 2학기에는 개발자다운 개발자가 되었을 때의 내 모습을 그리며 어떤 모습이길 원하는지 알아가 보아야 겠다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}
