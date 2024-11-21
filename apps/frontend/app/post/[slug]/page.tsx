@@ -35,9 +35,7 @@ export interface Post {
 }
 
 async function getPost(slug: string): Promise<Post> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-
-  const res = await fetch(`${baseUrl}/api/posts/${slug}`, {
+  const res = await fetch(`/api/posts/${slug}`, {
     next: { revalidate: 60 },
   });
 
