@@ -19,7 +19,9 @@ export default function TilPage() {
   const [tilEntries, setTilEntries] = useState<TILEntry[]>([]);
 
   useEffect(() => {
-    fetch('/api/til')
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+
+    fetch(`${baseUrl}/api/til`)
       .then((res) => res.json())
       .then((data) => {
         const entriesWithDates = data.entries.map((entry: any) => ({
