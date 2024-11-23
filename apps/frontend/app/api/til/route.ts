@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { NextResponse } from 'next/server';
 
-interface TILEntry {
+export interface TILEntry {
   date: string;
   status: 'completed';
   title: string;

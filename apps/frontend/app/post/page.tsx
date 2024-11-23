@@ -23,6 +23,12 @@ export interface Post {
         plain_text: string;
       }>;
     };
+    Created: {
+      type: 'date';
+      date: {
+        start: string;
+      };
+    };
   };
   yearMonth?: string;
   slug?: string;
