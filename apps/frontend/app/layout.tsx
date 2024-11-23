@@ -4,32 +4,30 @@ import Header from '@/components/layout/header/header';
 import { Metadata } from 'next';
 import localFont from 'next/font/local';
 
-export function generateMedtata(): Metadata {
-  return {
+export const metadata: Metadata = {
+  title: 'CHAPDO',
+  description: 'Chapdo Blog',
+  keywords: 'Chapdo, Blog',
+  icons: {
+    icon: '/favicon.ico',
+  },
+  openGraph: {
     title: 'CHAPDO',
     description: 'Chapdo Blog',
-    keywords: 'Chapdo, Blog',
-    icons: {
-      icon: '/favicon.ico',
-    },
-    openGraph: {
-      title: 'CHAPDO',
-      description: 'Chapdo Blog',
-      type: 'website',
-      locale: 'ko_KR',
-      siteName: 'CHAPDO',
-      url: 'https://chapdo.life',
-      images: [
-        {
-          url: '/favicon.png',
-          width: 1200,
-          height: 630,
-          alt: 'CHAPDO',
-        },
-      ],
-    },
-  };
-}
+    type: 'website',
+    locale: 'ko_KR',
+    siteName: 'CHAPDO',
+    url: 'https://chapdo.life',
+    images: [
+      {
+        url: '/favicon.png',
+        width: 1200,
+        height: 630,
+        alt: 'CHAPDO',
+      },
+    ],
+  },
+};
 
 const pretendard = localFont({
   src: [
