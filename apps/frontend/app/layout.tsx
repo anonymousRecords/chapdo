@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import BottomNavigation from '@/components/layout/bottom-navigation/bottom-navigation';
 import Header from '@/components/layout/header/header';
+import GoogleAnalytics from '@/lib/google-analytics';
 import { Metadata } from 'next';
 import localFont from 'next/font/local';
 
@@ -64,6 +65,9 @@ export default function RootLayout({
     <html lang="ko" className={pretendard.variable}>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className="flex justify-center bg-gray-100">
+        {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS} />
+        ) : null}
         <div className="w-full max-w-[600px] min-h-screen bg-white shadow-md relative">
           <Header />
           <div className="mt-[48px] mb-[66px]">{children}</div>
