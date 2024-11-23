@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/20/solid';
 import Chip from '../ui/chip/chip';
@@ -44,12 +44,15 @@ export default function BlogCarousel({ posts }: BlogCarouselProps) {
     }),
   };
 
-  const paginate = (newDirection: number) => {
-    setDirection(newDirection);
-    setCurrentIndex((prevIndex) =>
-      prevIndex + newDirection < 0 ? posts.length - 1 : (prevIndex + newDirection) % posts.length,
-    );
-  };
+  const paginate = useCallback(
+    (newDirection: number) => {
+      setDirection(newDirection);
+      setCurrentIndex((prevIndex) =>
+        prevIndex + newDirection < 0 ? posts.length - 1 : (prevIndex + newDirection) % posts.length,
+      );
+    },
+    [posts.length],
+  );
 
   useEffect(() => {
     if (!isPaused) {
@@ -59,7 +62,7 @@ export default function BlogCarousel({ posts }: BlogCarouselProps) {
 
       return () => clearInterval(timer);
     }
-  }, []);
+  }, [isPaused, paginate]);
 
   const swipeConfidenceThreshold = 10000;
   const swipePower = (offset: number, velocity: number) => {
