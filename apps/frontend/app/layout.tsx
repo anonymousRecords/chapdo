@@ -1,13 +1,35 @@
-import type { Metadata } from 'next';
 import '../styles/globals.css';
 import BottomNavigation from '@/components/layout/bottom-navigation/bottom-navigation';
 import Header from '@/components/layout/header/header';
+import { Metadata } from 'next';
 import localFont from 'next/font/local';
 
-export const metadata: Metadata = {
-  title: 'CHAPDO',
-  description: 'Chapdo Blog',
-};
+export function generateMedtata(): Metadata {
+  return {
+    title: 'CHAPDO',
+    description: 'Chapdo Blog',
+    keywords: 'Chapdo, Blog',
+    icons: {
+      icon: '/favicon.ico',
+    },
+    openGraph: {
+      title: 'CHAPDO',
+      description: 'Chapdo Blog',
+      type: 'website',
+      locale: 'ko_KR',
+      siteName: 'CHAPDO',
+      url: 'https://chapdo.life',
+      images: [
+        {
+          url: '/favicon.png',
+          width: 1200,
+          height: 630,
+          alt: 'CHAPDO',
+        },
+      ],
+    },
+  };
+}
 
 const pretendard = localFont({
   src: [
@@ -42,6 +64,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" className={pretendard.variable}>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className="flex justify-center bg-gray-100">
         <div className="w-full max-w-[600px] min-h-screen bg-white shadow-md relative">
           <Header />
