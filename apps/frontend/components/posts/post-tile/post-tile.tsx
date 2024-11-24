@@ -24,7 +24,7 @@ export default function PostTile({ title, content, tags, slug }: PostTileProps) 
         </div>
         <div className="flex flex-wrap gap-2 md:text-sm text-xs">
           {tags.map((tag) => (
-            <Chip label={tag.name} key={`${title}-${tag}`} />
+            <Chip label={tag.name} key={`${title}-${tag.id}`} />
           ))}
         </div>
       </div>
