@@ -1,0 +1,2664 @@
+{
+  "object": "page",
+  "id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae",
+  "created_time": "2024-11-24T05:25:00.000Z",
+  "last_edited_time": "2024-11-24T08:14:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "1456a1ef-3afb-8034-8fbf-dcf1211ca65f"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "Tags": {
+      "id": "P%60%5DN",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "d8853800-5379-4a85-a6d7-cf2f60fdc6ee",
+          "name": "블로그 제작기",
+          "color": "blue"
+        },
+        {
+          "id": "5d1ff9ee-77c5-4fe5-a17f-cbdaa60b9316",
+          "name": "NotionPresso",
+          "color": "gray"
+        }
+      ]
+    },
+    "Created": {
+      "id": "nknN",
+      "type": "date",
+      "date": {
+        "start": "2024-11-24",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "나만 없어 블로그",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "나만 없어 블로그",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/1486a1ef3afb80a1b0a0dd69d4214eae",
+  "public_url": null,
+  "request_id": "f8c49875-17a1-4342-b12b-46695aaa30c0",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80f0-a1ac-cdba44593633",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:16:00.000Z",
+      "last_edited_time": "2024-11-24T07:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "🙃 들어가며",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "🙃 들어가며",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-806b-891a-e4fe82b2e5b4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T05:25:00.000Z",
+      "last_edited_time": "2024-11-24T07:30:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "‘나만의 블로그를 만들고 싶다’라는 열망은, 나에게 오랫동안 내 마음속에 있었다. 여러 플랫폼을 거치면서 블로그를 운영해왔고, 그래서 지금까지 내 블로그의 변천사와 제일 최근에 새롭게 만든 블로그의 제작기를 한 번 기록해보려고 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "‘나만의 블로그를 만들고 싶다’라는 열망은, 나에게 오랫동안 내 마음속에 있었다. 여러 플랫폼을 거치면서 블로그를 운영해왔고, 그래서 지금까지 내 블로그의 변천사와 제일 최근에 새롭게 만든 블로그의 제작기를 한 번 기록해보려고 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-809b-899d-d42d0ba4eb9c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:16:00.000Z",
+      "last_edited_time": "2024-11-24T06:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8079-9e87-df3f3d485d61",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:16:00.000Z",
+      "last_edited_time": "2024-11-24T07:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "나에게 블로그는 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "나에게 블로그는 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "복기 수단",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "복기 수단",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이다. 바쁘게 흘러가는 일상 속에서 블로그에 글을 쓰며 나의 활동, 배움, 생각을 정리하는 시간을 가질 수 있었다. 요즘 흔히 개발 블로그 없는 개발자가 없다고는 하지만, 취업 목적보다는 정말 내가 꿈꾸는 개발자가 되기 위한, 자아성찰 도구가 블로그라고 생각했다. 다만 이상과 달리 꾸준한 운영에는 실패했다. 하하하.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이다. 바쁘게 흘러가는 일상 속에서 블로그에 글을 쓰며 나의 활동, 배움, 생각을 정리하는 시간을 가질 수 있었다. 요즘 흔히 개발 블로그 없는 개발자가 없다고는 하지만, 취업 목적보다는 정말 내가 꿈꾸는 개발자가 되기 위한, 자아성찰 도구가 블로그라고 생각했다. 다만 이상과 달리 꾸준한 운영에는 실패했다. 하하하.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8029-bdd7-daade47c2155",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:16:00.000Z",
+      "last_edited_time": "2024-11-24T07:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "🙃 블로그 플랫폼 변천사",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "🙃 블로그 플랫폼 변천사",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8007-ba23-cc041da970cd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "첫 번째 시도. 티스토리",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "첫 번째 시도. 티스토리",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8012-9c45-eb12293c2a70",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:23:00.000Z",
+      "last_edited_time": "2024-11-24T07:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/1486a1ef-3afb-80a1-b0a0-dd69d4214eae/image_1.png",
+          "expiry_time": "2024-11-24T09:15:02.574Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8034-84d7-de5997c94bc5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T07:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "가장 처음은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "가장 처음은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "티스토리",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "티스토리",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "였다. 조회수 통계 등 다양한 기능을 자체적으로 제공해 글쓰기에만 집중할 수 있다는 장점이 있었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "였다. 조회수 통계 등 다양한 기능을 자체적으로 제공해 글쓰기에만 집중할 수 있다는 장점이 있었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8043-ae2f-fa8d4bf07aba",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:11:00.000Z",
+      "last_edited_time": "2024-11-24T07:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 ‘나만의’ 무언가를 티스토리 내에서 구현하기에는 한계가 있다고 느꼈다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 ‘나만의’ 무언가를 티스토리 내에서 구현하기에는 한계가 있다고 느꼈다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8074-a720-c1543f9bc7cc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "두 번째 시도. Next.js + Github API",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "두 번째 시도. Next.js + Github API",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80b9-bd63-ebf9ba738196",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T05:30:00.000Z",
+      "last_edited_time": "2024-11-24T08:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 다음으로 시도한 것이 바로 내가 직접 블로그를 만드는 것이었다. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 다음으로 시도한 것이 바로 내가 직접 블로그를 만드는 것이었다. ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Next.js + Github API",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Next.js + Github API",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "를 사용하여 블로그를 만들었다. 동작 방식은 쉽게 말해서 다음과 같다. (",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "를 사용하여 블로그를 만들었다. 동작 방식은 쉽게 말해서 다음과 같다. (",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "https://docs.github.com/ko/rest?apiVersion=2022-11-28",
+              "link": {
+                "url": "https://docs.github.com/ko/rest?apiVersion=2022-11-28"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://docs.github.com/ko/rest?apiVersion=2022-11-28",
+            "href": "https://docs.github.com/ko/rest?apiVersion=2022-11-28"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ")",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ")",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8004-9165-c5a7873ccd90",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T05:31:00.000Z",
+      "last_edited_time": "2024-11-24T07:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "// 출처 : https://github.com/gitdagray/next-js-course/blob/main/next12/lib/posts.ts\n\n/**\n* GitHub 저장소에서 MDX 형식의 블로그 포스트를 가져와 파싱하는 함수\n* \n* @param fileName - 가져올 MDX 파일의 이름\n* @returns 파싱된 블로그 포스트 객체 또는 undefined\n*/\nexport async function getPostByName(fileName: string): Promise<BlogPost | undefined> {\n   // GitHub Raw Content URL로 MDX 파일 요청\n   const res = await fetch(`https://raw.githubusercontent.com/gitdagray/test-blogposts/main/${fileName}`, {\n       headers: {\n           Accept: 'application/vnd.github+json', // GitHub API 응답 형식 지정\n           Authorization: `Bearer ${process.env.GITHUB_TOKEN}`, // GitHub 인증 토큰\n           'X-GitHub-Api-Version': '2022-11-28', // GitHub API 버전 명시\n       }\n   })\n\n   // 요청 실패시 undefined 반환\n   if (!res.ok) return undefined\n\n   // 응답 텍스트(MDX 내용) 추출\n   const rawMDX = await res.text()\n\n   // 파일이 없는 경우 undefined 반환\n   if (rawMDX === '404: Not Found') return undefined\n\n   // MDX 컨텐츠 파싱\n   const { frontmatter, content } = await compileMDX<{ title: string, date: string, tags: string[] }>({\n       source: rawMDX,\n       components: {\n           Video, // MDX 내 사용될 커스텀 비디오 컴포넌트\n           CustomImage, // MDX 내 사용될 커스텀 이미지 컴포넌트\n       },\n       options: {\n           parseFrontmatter: true, // frontmatter 파싱 활성화\n           mdxOptions: {\n               rehypePlugins: [\n                   rehypeHighlight, // 코드 하이라이팅\n                   rehypeSlug, // 헤딩에 id 추가\n                   [rehypeAutolinkHeadings, { // 헤딩에 자동 링크 추가\n                       behavior: 'wrap'\n                   }],\n               ],\n           },\n       }\n   })\n\n   // 파일명에서 확장자 제거하여 포스트 ID 생성\n   const id = fileName.replace(/\\.mdx$/, '')\n\n   // 블로그 포스트 객체 생성\n   const blogPostObj: BlogPost = { \n       meta: { \n           id, \n           title: frontmatter.title, \n           date: frontmatter.date, \n           tags: frontmatter.tags \n       }, \n       content \n   }\n\n   return blogPostObj\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "// 출처 : https://github.com/gitdagray/next-js-course/blob/main/next12/lib/posts.ts\n\n/**\n* GitHub 저장소에서 MDX 형식의 블로그 포스트를 가져와 파싱하는 함수\n* \n* @param fileName - 가져올 MDX 파일의 이름\n* @returns 파싱된 블로그 포스트 객체 또는 undefined\n*/\nexport async function getPostByName(fileName: string): Promise<BlogPost | undefined> {\n   // GitHub Raw Content URL로 MDX 파일 요청\n   const res = await fetch(`https://raw.githubusercontent.com/gitdagray/test-blogposts/main/${fileName}`, {\n       headers: {\n           Accept: 'application/vnd.github+json', // GitHub API 응답 형식 지정\n           Authorization: `Bearer ${process.env.GITHUB_TOKEN}`, // GitHub 인증 토큰\n           'X-GitHub-Api-Version': '2022-11-28', // GitHub API 버전 명시\n       }\n   })\n\n   // 요청 실패시 undefined 반환\n   if (!res.ok) return undefined\n\n   // 응답 텍스트(MDX 내용) 추출\n   const rawMDX = await res.text()\n\n   // 파일이 없는 경우 undefined 반환\n   if (rawMDX === '404: Not Found') return undefined\n\n   // MDX 컨텐츠 파싱\n   const { frontmatter, content } = await compileMDX<{ title: string, date: string, tags: string[] }>({\n       source: rawMDX,\n       components: {\n           Video, // MDX 내 사용될 커스텀 비디오 컴포넌트\n           CustomImage, // MDX 내 사용될 커스텀 이미지 컴포넌트\n       },\n       options: {\n           parseFrontmatter: true, // frontmatter 파싱 활성화\n           mdxOptions: {\n               rehypePlugins: [\n                   rehypeHighlight, // 코드 하이라이팅\n                   rehypeSlug, // 헤딩에 id 추가\n                   [rehypeAutolinkHeadings, { // 헤딩에 자동 링크 추가\n                       behavior: 'wrap'\n                   }],\n               ],\n           },\n       }\n   })\n\n   // 파일명에서 확장자 제거하여 포스트 ID 생성\n   const id = fileName.replace(/\\.mdx$/, '')\n\n   // 블로그 포스트 객체 생성\n   const blogPostObj: BlogPost = { \n       meta: { \n           id, \n           title: frontmatter.title, \n           date: frontmatter.date, \n           tags: frontmatter.tags \n       }, \n       content \n   }\n\n   return blogPostObj\n}",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8080-bc16-f0883dbe2380",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:07:00.000Z",
+      "last_edited_time": "2024-11-24T06:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8080-8302-de6b86158f90",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:07:00.000Z",
+      "last_edited_time": "2024-11-24T06:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 블로그를 만들고 나니, 문제가 있었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 블로그를 만들고 나니, 문제가 있었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80ba-b9e9-d7a03c2fcb2e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:07:00.000Z",
+      "last_edited_time": "2024-11-24T06:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8007-8bf3-fc70cfeb2fb0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:07:00.000Z",
+      "last_edited_time": "2024-11-24T06:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제1. 디자인이 마음에 들지 않음",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제1. 디자인이 마음에 들지 않음",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-809f-8c3d-d1f04b55b36e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:21:00.000Z",
+      "last_edited_time": "2024-11-24T07:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/1486a1ef-3afb-80a1-b0a0-dd69d4214eae/image_2.png",
+          "expiry_time": "2024-11-24T09:15:02.592Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-807b-a2cb-fcf51d6cc3c3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "내 마음에 들지 않았다. 분명 내가 디자인하고 만든 블로그였지만, 마음에 들지 않으니 관심이 떨어지고 애정도 마찬가지로 떨어졌다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "내 마음에 들지 않았다. 분명 내가 디자인하고 만든 블로그였지만, 마음에 들지 않으니 관심이 떨어지고 애정도 마찬가지로 떨어졌다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8067-a41c-db6cb6e725e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8020-9aa6-dc3304325750",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문제2. 부족한 컴퓨터 저장 공간",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문제2. 부족한 컴퓨터 저장 공간",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8040-8c99-e4e9248f0581",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "현재 내 노트북은 저장 공간이 부족해서 항상 파일을 지우고 다시 다운로드하는 과정을 반복해야했다. 따라서 모든 블로그 글을 내 노트북에 저장하고 있는 것은 부담스러운 일이었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "현재 내 노트북은 저장 공간이 부족해서 항상 파일을 지우고 다시 다운로드하는 과정을 반복해야했다. 따라서 모든 블로그 글을 내 노트북에 저장하고 있는 것은 부담스러운 일이었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80e0-9293-db31772195dd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:09:00.000Z",
+      "last_edited_time": "2024-11-24T06:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80e0-acb7-c30ed08f92f0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "세 번째 시도. 풀스택 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "세 번째 시도. 풀스택 ",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8084-81d4-fabc0c2b6bab",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:17:00.000Z",
+      "last_edited_time": "2024-11-24T07:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/1486a1ef-3afb-80a1-b0a0-dd69d4214eae/image_3.png",
+          "expiry_time": "2024-11-24T09:15:02.575Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80e1-8415-dac7a744e12e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 내가 생각한 것은 풀스택으로 블로그를 만드는 것이었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 내가 생각한 것은 풀스택으로 블로그를 만드는 것이었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8072-adf8-c06f5c498789",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "하지만 이 시도의 경우, 생각만 하였지 실제 실천으로까지 이어지지는 못 했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "하지만 이 시도의 경우, 생각만 하였지 실제 실천으로까지 이어지지는 못 했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80f5-b724-c41b96d7e6c6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:17:00.000Z",
+      "last_edited_time": "2024-11-24T07:35:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이 흔적은 현재 turborepo로 구현한 모노레포에 apps > frontend 폴더가 잘 보여주고 있다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이 흔적은 현재 turborepo로 구현한 모노레포에 apps > frontend 폴더가 잘 보여주고 있다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80b8-9951-e565829aa100",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8030-b6c1-ca9461282ef3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:08:00.000Z",
+      "last_edited_time": "2024-11-24T06:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "네 번째 시도. Next.js + NotionPresso",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "네 번째 시도. Next.js + NotionPresso",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-800e-a951-fb8a7ddbacb8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:09:00.000Z",
+      "last_edited_time": "2024-11-24T06:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그렇게 여러 시도를 하다가 블로그의 존재에 대해 잊고 지냈다. 그러다가 새로운 변화가 있었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그렇게 여러 시도를 하다가 블로그의 존재에 대해 잊고 지냈다. 그러다가 새로운 변화가 있었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80c5-b600-c0f0ab11fdb0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:17:00.000Z",
+      "last_edited_time": "2024-11-24T06:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "먼저 SSD를 선물받아서 이제 저장 공간에 대한 걱정이 없게 되었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "먼저 SSD를 선물받아서 이제 저장 공간에 대한 걱정이 없게 되었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80c3-a370-caa4974939b2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:18:00.000Z",
+      "last_edited_time": "2024-11-24T07:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "다음으로 NotionPresso라는 라이브러리를 통해 손쉽게 노션 글을 내 블로그에 가져올 수 있게 된 것이었다. 처음에는 에디터까지 내가 구현하는 것을 생각하였으나, 이는 쉽지 않은 일이었다. 그러면 내가 어디서 글을 편하게 쓰는지 생각해보았다. 가장 친숙한 것이 노션이었다. 그래서 노션에 쓴 글을 손 쉽게 가져다가 쓸 수 있게 하는 NotionPresso를 사용하게 되었다. (",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "다음으로 NotionPresso라는 라이브러리를 통해 손쉽게 노션 글을 내 블로그에 가져올 수 있게 된 것이었다. 처음에는 에디터까지 내가 구현하는 것을 생각하였으나, 이는 쉽지 않은 일이었다. 그러면 내가 어디서 글을 편하게 쓰는지 생각해보았다. 가장 친숙한 것이 노션이었다. 그래서 노션에 쓴 글을 손 쉽게 가져다가 쓸 수 있게 하는 NotionPresso를 사용하게 되었다. (",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "노션 프레소 튜토리얼",
+              "link": {
+                "url": "https://notionpresso.com/ko/tutorial"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "노션 프레소 튜토리얼",
+            "href": "https://notionpresso.com/ko/tutorial"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ")",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ")",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8002-9741-dd786e4c96e0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:09:00.000Z",
+      "last_edited_time": "2024-11-24T06:36:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "🙃 새롭게 블로그를 단장하면서 겪은 경험들",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "🙃 새롭게 블로그를 단장하면서 겪은 경험들",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80f2-ab23-caed655b8b85",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:10:00.000Z",
+      "last_edited_time": "2024-11-24T06:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이커머스 같은 블로그",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이커머스 같은 블로그",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8001-b05c-fea3c28ea7cb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:20:00.000Z",
+      "last_edited_time": "2024-11-24T07:25:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "최근에 모든 사업은 결국 물건을 사고 파는 이커머스에 뿌리를 두고 있다는 생각에, 이커머스에 대한 관심도 많은 상태였다. 그런데 이 이커머스를 내가 직접 경험하려면, 쇼핑몰을 운영할 수도 없고 어려움이 있었다. 그래서 이 이커머스를 내 블로그에 녹여내 보려고 했다. (",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "최근에 모든 사업은 결국 물건을 사고 파는 이커머스에 뿌리를 두고 있다는 생각에, 이커머스에 대한 관심도 많은 상태였다. 그런데 이 이커머스를 내가 직접 경험하려면, 쇼핑몰을 운영할 수도 없고 어려움이 있었다. 그래서 이 이커머스를 내 블로그에 녹여내 보려고 했다. (",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "shopping-backend",
+              "link": {
+                "url": "https://github.com/samchon/shopping-backend/blob/master/prisma/docs/ERD.md"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "shopping-backend",
+            "href": "https://github.com/samchon/shopping-backend/blob/master/prisma/docs/ERD.md"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ") 블로그 하나의 이커머스로 보고, 내 글을 상품으로 생각했다. 그래서 어떤 식으로 글을 노출하면 조회수가 많았는지와 같은 데이터를 수집하고 싶었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ") 블로그 하나의 이커머스로 보고, 내 글을 상품으로 생각했다. 그래서 어떤 식으로 글을 노출하면 조회수가 많았는지와 같은 데이터를 수집하고 싶었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8070-a153-eefaec72b89f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:30:00.000Z",
+      "last_edited_time": "2024-11-24T07:26:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 만들어진 것이 바로 이커머스 같은 블로그였다. 현재는 하드 코딩으로 홈 화면이 구현되어 있지만, 향후에는 조회수를 비롯한 데이터를 통해 홈 화면에 노출한 컨텐츠를 정할 계획이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 만들어진 것이 바로 이커머스 같은 블로그였다. 현재는 하드 코딩으로 홈 화면이 구현되어 있지만, 향후에는 조회수를 비롯한 데이터를 통해 홈 화면에 노출한 컨텐츠를 정할 계획이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8034-9e55-eb3b4c0cb477",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:10:00.000Z",
+      "last_edited_time": "2024-11-24T07:45:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "API route",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "API route",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80cc-9db6-ecacca7c668e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:22:00.000Z",
+      "last_edited_time": "2024-11-24T06:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "개발하면서 가장 어려웠던 부분은 노션 글 데이터인 json 파일을 어떻게 불러오는 것인가였다. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "개발하면서 가장 어려웠던 부분은 노션 글 데이터인 json 파일을 어떻게 불러오는 것인가였다. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8081-8052-f04a292e5a81",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:39:00.000Z",
+      "last_edited_time": "2024-11-24T07:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80b3-a740-c88848dd65e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:11:00.000Z",
+      "last_edited_time": "2024-11-24T07:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/1486a1ef-3afb-80a1-b0a0-dd69d4214eae/image_4.png",
+          "expiry_time": "2024-11-24T09:15:02.582Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80c0-9055-d04d6fbfd5bf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:39:00.000Z",
+      "last_edited_time": "2024-11-24T07:43:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "처음에는 util 함수로 json 파일을 읽어오게 하려고 했다. 하지만 Next.js에서 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "처음에는 util 함수로 json 파일을 읽어오게 하려고 했다. 하지만 Next.js에서 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "fs",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "fs",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 모듈을 찾을 수 없다는 이슈가 발생했다. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 모듈을 찾을 수 없다는 이슈가 발생했다. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-806e-8271-c0bc3905a2e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:43:00.000Z",
+      "last_edited_time": "2024-11-24T07:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "해당 이슈의 원인에 대해 살펴보면 Next.js 13+ 버전에서는 페이지가 기본적으로 클라이언트 컴포넌트가 아닌 서버 컴포넌트로 동작한다. 서버 사이드 모듈인 'fs'를 클라이언트에서 직접 사용하려고 하면 빌드 에러가 발생하게 되는 것이다. 그래서 초기 코드인 utils/load-posts.ts는 클라이언트 번들에 포함되어 빌드되려고 시도하기 때문에 위와 같은 에러가 발생했다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "해당 이슈의 원인에 대해 살펴보면 Next.js 13+ 버전에서는 페이지가 기본적으로 클라이언트 컴포넌트가 아닌 서버 컴포넌트로 동작한다. 서버 사이드 모듈인 'fs'를 클라이언트에서 직접 사용하려고 하면 빌드 에러가 발생하게 되는 것이다. 그래서 초기 코드인 utils/load-posts.ts는 클라이언트 번들에 포함되어 빌드되려고 시도하기 때문에 위와 같은 에러가 발생했다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-805b-9a79-d630fb3cd501",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:44:00.000Z",
+      "last_edited_time": "2024-11-24T07:44:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 해결한 방법은 바로 API route였다. API route는 항상 서버에서만 실행된다. 따라서 'fs' 같은 서버 사이드 모듈을 안전하게 사용할 수 있다. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 해결한 방법은 바로 API route였다. API route는 항상 서버에서만 실행된다. 따라서 'fs' 같은 서버 사이드 모듈을 안전하게 사용할 수 있다. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80aa-8556-ec2dcd43d5b4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:51:00.000Z",
+      "last_edited_time": "2024-11-24T07:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-805d-9486-d53b4393443a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:43:00.000Z",
+      "last_edited_time": "2024-11-24T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그리고 데이터를 불러오는 방식 역시 til과 post의 차이 때문에 다르게 구현해야했다. til의 경우 Date 객체 변환 등 클라이언트 측 데이터 가공 필요한 반면, post는 서버에서 받아온 데이터를 그대로 표시하면 되었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그리고 데이터를 불러오는 방식 역시 til과 post의 차이 때문에 다르게 구현해야했다. til의 경우 Date 객체 변환 등 클라이언트 측 데이터 가공 필요한 반면, post는 서버에서 받아온 데이터를 그대로 표시하면 되었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-806a-8e27-d351b1c11563",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:52:00.000Z",
+      "last_edited_time": "2024-11-24T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-809b-bad8-f75344cac9a2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:12:00.000Z",
+      "last_edited_time": "2024-11-24T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "// TilPage.tsx\n// 클라이언트 컴포넌트에서 useEffect로 데이터 페칭\n'use client';  // 클라이언트 컴포넌트 선언\n\nuseEffect(() => {\n  fetch(`${baseUrl}/api/til`)\n    .then(res => res.json())\n    .then(data => {\n      const entriesWithDates = data.entries.map((entry: any) => ({\n        ...entry,\n        date: new Date(entry.date),\n      }));\n      setTilEntries(entriesWithDates);\n    });\n}, []);",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "// TilPage.tsx\n// 클라이언트 컴포넌트에서 useEffect로 데이터 페칭\n'use client';  // 클라이언트 컴포넌트 선언\n\nuseEffect(() => {\n  fetch(`${baseUrl}/api/til`)\n    .then(res => res.json())\n    .then(data => {\n      const entriesWithDates = data.entries.map((entry: any) => ({\n        ...entry,\n        date: new Date(entry.date),\n      }));\n      setTilEntries(entriesWithDates);\n    });\n}, []);",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80f2-a531-e306762edb84",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:52:00.000Z",
+      "last_edited_time": "2024-11-24T07:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "// PostPage.tsx\n// 서버 컴포넌트에서 직접 데이터 페칭\nasync function getPosts(): Promise<Post[]> {\n  const baseUrl = process.env.NODE_ENV === 'production' \n    ? 'https://chapdo.vercel.app' \n    : 'http://localhost:3000';\n  \n  const res = await fetch(`${baseUrl}/api/posts`, {\n    cache: 'force-cache',\n    next: { revalidate: 60 }  // 60초마다 재검증\n  });\n  // ...\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "// PostPage.tsx\n// 서버 컴포넌트에서 직접 데이터 페칭\nasync function getPosts(): Promise<Post[]> {\n  const baseUrl = process.env.NODE_ENV === 'production' \n    ? 'https://chapdo.vercel.app' \n    : 'http://localhost:3000';\n  \n  const res = await fetch(`${baseUrl}/api/posts`, {\n    cache: 'force-cache',\n    next: { revalidate: 60 }  // 60초마다 재검증\n  });\n  // ...\n}",
+            "href": null
+          }
+        ],
+        "language": "javascript"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8073-bbd6-d3f6d13f6a61",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:12:00.000Z",
+      "last_edited_time": "2024-11-24T06:12:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "향후 계획",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "향후 계획",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-8049-be1c-f95f4a853b90",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:54:00.000Z",
+      "last_edited_time": "2024-11-24T07:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SEO 최적화 구현",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SEO 최적화 구현",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-802b-b45c-f5b359b29a64",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:54:00.000Z",
+      "last_edited_time": "2024-11-24T07:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "세밀한 구글 애널리틱스 추적 설정",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "세밀한 구글 애널리틱스 추적 설정",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "1486a1ef-3afb-8026-b086-cee4de27aaf4",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1486a1ef-3afb-802b-b45c-f5b359b29a64"
+          },
+          "created_time": "2024-11-24T07:54:00.000Z",
+          "last_edited_time": "2024-11-24T07:54:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "페이지별 추적",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "페이지별 추적",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "1486a1ef-3afb-80fb-9f09-d5ac64245cd7",
+          "parent": {
+            "type": "block_id",
+            "block_id": "1486a1ef-3afb-802b-b45c-f5b359b29a64"
+          },
+          "created_time": "2024-11-24T07:54:00.000Z",
+          "last_edited_time": "2024-11-24T07:54:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "bulleted_list_item",
+          "bulleted_list_item": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "버튼 클릭 등 사용자 행동 분석",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "버튼 클릭 등 사용자 행동 분석",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80a5-9293-e25836f6d3ff",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:12:00.000Z",
+      "last_edited_time": "2024-11-24T07:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "현재 블로그 구현만 완성된 상태이지, SEO나 트랙킹하는 것은 거의 신경을 못 쓴 상태이다. 그래서 구글 애널리틱스의 경우에도 각 페이지와 버튼 등 세밀한게 티켓을 심어 추적하고자 한다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "현재 블로그 구현만 완성된 상태이지, SEO나 트랙킹하는 것은 거의 신경을 못 쓴 상태이다. 그래서 구글 애널리틱스의 경우에도 각 페이지와 버튼 등 세밀한게 티켓을 심어 추적하고자 한다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80df-8c39-dc20725c85ce",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T06:24:00.000Z",
+      "last_edited_time": "2024-11-24T07:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "또한 SEO도 robot.ts, sitemap.ts를 구현은 해두었으나 아직 진행 중인 상태이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "또한 SEO도 robot.ts, sitemap.ts를 구현은 해두었으나 아직 진행 중인 상태이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-80dd-ae62-c62a17aad726",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:55:00.000Z",
+      "last_edited_time": "2024-11-24T07:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1486a1ef-3afb-808f-b1f0-f2a8494d3214",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1486a1ef-3afb-80a1-b0a0-dd69d4214eae"
+      },
+      "created_time": "2024-11-24T07:55:00.000Z",
+      "last_edited_time": "2024-11-24T07:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "그래서 앞으로 계속 블로그를 발전시켜 나가면서, 블로그도 열심히 운영해 볼 계획이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "그래서 앞으로 계속 블로그를 발전시켜 나가면서, 블로그도 열심히 운영해 볼 계획이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}
