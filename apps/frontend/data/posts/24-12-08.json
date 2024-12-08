@@ -1,0 +1,786 @@
+{
+  "object": "page",
+  "id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf",
+  "created_time": "2024-12-08T13:13:00.000Z",
+  "last_edited_time": "2024-12-08T13:25:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "database_id",
+    "database_id": "1456a1ef-3afb-8034-8fbf-dcf1211ca65f"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "Tags": {
+      "id": "P%60%5DN",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "15a1dfd2-d669-49d1-a2cc-6af2af25ebb6",
+          "name": "동기와 비동기",
+          "color": "yellow"
+        },
+        {
+          "id": "3d911460-a11f-4970-b521-4e834c94e18a",
+          "name": "CPU",
+          "color": "brown"
+        },
+        {
+          "id": "05ff8047-2ee4-4b38-b687-0e8b14fb4852",
+          "name": "추상화",
+          "color": "orange"
+        }
+      ]
+    },
+    "Created": {
+      "id": "nknN",
+      "type": "date",
+      "date": {
+        "start": "2024-12-08",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "컴퓨터의 속내를 이해하다",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "컴퓨터의 속내를 이해하다",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/1566a1ef3afb809dad42edcf32ae91cf",
+  "public_url": null,
+  "request_id": "e216553f-9602-415d-b3fc-627b3bf83716",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-803c-8b1f-c4171cf4f789",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:14:00.000Z",
+      "last_edited_time": "2024-12-08T13:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/1566a1ef-3afb-809d-ad42-edcf32ae91cf/image_1.png",
+          "expiry_time": "2024-12-08T14:26:33.468Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-8075-8099-f06f0dfd4dde",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:15:00.000Z",
+      "last_edited_time": "2024-12-08T13:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-80a6-a0f1-d19c437d5269",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:13:00.000Z",
+      "last_edited_time": "2024-12-08T13:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "한 인터뷰 일화가 떠오른다. 진행자가 배우 한고은 씨의 이름을 실수로 '한가인'이라고 잘못 부르는 상황이 있었다. 처음에는 웃으며 넘어갔지만, 두 번째 같은 실수가 반복되자 한고은 씨는 더 이상 인터뷰를 진행하지 않고 자리를 떴다고 한다. 누구나 자신의 이름이 잘못 불리는 것을 불쾌하게 생각할 수 있다. 그것은 상대방이 나를 제대로 알지 못한다는 것을 의미하기 때문이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "한 인터뷰 일화가 떠오른다. 진행자가 배우 한고은 씨의 이름을 실수로 '한가인'이라고 잘못 부르는 상황이 있었다. 처음에는 웃으며 넘어갔지만, 두 번째 같은 실수가 반복되자 한고은 씨는 더 이상 인터뷰를 진행하지 않고 자리를 떴다고 한다. 누구나 자신의 이름이 잘못 불리는 것을 불쾌하게 생각할 수 있다. 그것은 상대방이 나를 제대로 알지 못한다는 것을 의미하기 때문이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-80d3-88fd-ce562f5f1d6f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:13:00.000Z",
+      "last_edited_time": "2024-12-08T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "문득 이 일화를 접하면서 우리가 매일 사용하는 컴퓨터를 떠올렸다. 나는 개발자로서 매일 코드를 작성하고 프로그램을 만들지만, 정작 그 코드가 어떻게 실행되는지, 컴퓨터의 내부에서는 어떤 일이 벌어지고 있는지 제대로 알지 못했다. 마치 한고은 씨의 이름을 제대로 알지 못한 진행자처럼, 나는 내가 매일 대화하는 상대방을 제대로 이해하지 못하고 있었던 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "문득 이 일화를 접하면서 우리가 매일 사용하는 컴퓨터를 떠올렸다. 나는 개발자로서 매일 코드를 작성하고 프로그램을 만들지만, 정작 그 코드가 어떻게 실행되는지, 컴퓨터의 내부에서는 어떤 일이 벌어지고 있는지 제대로 알지 못했다. 마치 한고은 씨의 이름을 제대로 알지 못한 진행자처럼, 나는 내가 매일 대화하는 상대방을 제대로 이해하지 못하고 있었던 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-805c-b16b-e7c95c2dbeec",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:19:00.000Z",
+      "last_edited_time": "2024-12-08T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-8082-92f5-ebdff427665e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:19:00.000Z",
+      "last_edited_time": "2024-12-08T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/1566a1ef-3afb-809d-ad42-edcf32ae91cf/image_2.png",
+          "expiry_time": "2024-12-08T14:26:33.479Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-800e-a8a3-df0517b1377c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:19:00.000Z",
+      "last_edited_time": "2024-12-08T13:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-8004-9916-eb76e7ae74e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:13:00.000Z",
+      "last_edited_time": "2024-12-08T13:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이런 부끄러움이 '컴퓨터 밑바닥의 비밀'이라는 책을 읽게 된 계기가 되었다. 이 책은 마치 컴퓨터라는 거대한 건물의 지하실부터 천천히 둘러보는 듯한 경험을 선사했다. 특히 인상 깊었던 것은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이런 부끄러움이 '컴퓨터 밑바닥의 비밀'이라는 책을 읽게 된 계기가 되었다. 이 책은 마치 컴퓨터라는 거대한 건물의 지하실부터 천천히 둘러보는 듯한 경험을 선사했다. 특히 인상 깊었던 것은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "동기와 비동기 처리에 대한 설명",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "동기와 비동기 처리에 대한 설명",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-8091-b399-de6130e07f06",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:13:00.000Z",
+      "last_edited_time": "2024-12-08T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "저자는 이를 전화 통화와 이메일의 차이로 설명한다. 전화 통화는 상대방과 실시간으로 대화하며 응답을 기다려야 하는 동기 방식이고, 이메일은 보내고 난 뒤 다른 일을 하다가 나중에 답장을 확인하는 비동기 방식이다. 이러한 일상적인 비유를 통해 복잡한 컴퓨터 과학 개념을 쉽게 이해할 수 있었다. 실제로 웹 서버가 처리하는 수많은 요청들도 이와 비슷한 방식으로 동작한다는 것을 알게 되었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "저자는 이를 전화 통화와 이메일의 차이로 설명한다. 전화 통화는 상대방과 실시간으로 대화하며 응답을 기다려야 하는 동기 방식이고, 이메일은 보내고 난 뒤 다른 일을 하다가 나중에 답장을 확인하는 비동기 방식이다. 이러한 일상적인 비유를 통해 복잡한 컴퓨터 과학 개념을 쉽게 이해할 수 있었다. 실제로 웹 서버가 처리하는 수많은 요청들도 이와 비슷한 방식으로 동작한다는 것을 알게 되었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-80ba-9b27-e2fd180504f5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:13:00.000Z",
+      "last_edited_time": "2024-12-08T13:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "또 다른 흥미로운 부분은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "또 다른 흥미로운 부분은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "CPU에 대한 설명",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "CPU에 대한 설명",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이었다. \"이 작은 장난감을 CPU라고 부른다\"라는 제목의 장에서는 트랜지스터부터 시작해서 현대의 복잡한 CPU가 되기까지의 과정을 설명한다. 특히 인상 깊었던 것은 CPU가 실제로는 '똑똑한 바보'라는 설명이다. CPU는 단순한 산술 연산과 논리 연산만을 수행할 수 있지만, 이 단순한 연산들을 엄청나게 빠른 속도로 처리함으로써 복잡한 작업을 수행할 수 있게 된다는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이었다. \"이 작은 장난감을 CPU라고 부른다\"라는 제목의 장에서는 트랜지스터부터 시작해서 현대의 복잡한 CPU가 되기까지의 과정을 설명한다. 특히 인상 깊었던 것은 CPU가 실제로는 '똑똑한 바보'라는 설명이다. CPU는 단순한 산술 연산과 논리 연산만을 수행할 수 있지만, 이 단순한 연산들을 엄청나게 빠른 속도로 처리함으로써 복잡한 작업을 수행할 수 있게 된다는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-807b-a89f-d47df48c30b3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:13:00.000Z",
+      "last_edited_time": "2024-12-08T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이는 마치 우리가 사용하는 프로그래밍 언어가 결국에는 0과 1로 이루어진 기계어로 변환되어 실행된다는 사실을 떠올리게 했다. 우리가 작성하는 고급 프로그래밍 언어의 코드는 컴파일러에 의해 여러 단계를 거쳐 CPU가 이해할 수 있는 단순한 명령어들로 변환되는 것이다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이는 마치 우리가 사용하는 프로그래밍 언어가 결국에는 0과 1로 이루어진 기계어로 변환되어 실행된다는 사실을 떠올리게 했다. 우리가 작성하는 고급 프로그래밍 언어의 코드는 컴파일러에 의해 여러 단계를 거쳐 CPU가 이해할 수 있는 단순한 명령어들로 변환되는 것이다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-80fd-be6b-e6849444fce7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:13:00.000Z",
+      "last_edited_time": "2024-12-08T13:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "책을 읽으면서 가장 크게 느낀 것은 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "책을 읽으면서 가장 크게 느낀 것은 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "추상화의 중요성",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "추상화의 중요성",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "이다. 컴퓨터 과학에서 추상화란 복잡한 시스템의 세부 사항을 감추고 핵심적인 개념만을 드러내는 것을 말한다. 우리가 매일 사용하는 프로그래밍 언어, 운영체제, 각종 프레임워크들은 모두 이러한 추상화의 산물이다. 이들은 복잡한 하드웨어의 동작을 감추고, 개발자가 보다 직관적으로 프로그래밍할 수 있게 해준다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이다. 컴퓨터 과학에서 추상화란 복잡한 시스템의 세부 사항을 감추고 핵심적인 개념만을 드러내는 것을 말한다. 우리가 매일 사용하는 프로그래밍 언어, 운영체제, 각종 프레임워크들은 모두 이러한 추상화의 산물이다. 이들은 복잡한 하드웨어의 동작을 감추고, 개발자가 보다 직관적으로 프로그래밍할 수 있게 해준다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-80db-9bea-ce51d379a92c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:13:00.000Z",
+      "last_edited_time": "2024-12-08T13:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이제 나는 더 이상 컴퓨터의 동작 원리를 모르는 것이 부끄럽지 않다. 오히려 이 책을 통해 컴퓨터의 기본 원리를 이해하게 되었고, 이는 더 나은 프로그램을 만드는 데 큰 도움이 될 것이다. 한고은 씨의 일화로 시작했지만, 이제는 내가 매일 대화하는 컴퓨터의 이름을 제대로 부를 수 있게 되었다. 때로는 우리가 당연하게 여기는 것들의 기본을 돌아보는 것이 더 큰 성장을 위한 첫걸음이 될 수 있다는 것을 이 책이 가르쳐주었다.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이제 나는 더 이상 컴퓨터의 동작 원리를 모르는 것이 부끄럽지 않다. 오히려 이 책을 통해 컴퓨터의 기본 원리를 이해하게 되었고, 이는 더 나은 프로그램을 만드는 데 큰 도움이 될 것이다. 한고은 씨의 일화로 시작했지만, 이제는 내가 매일 대화하는 컴퓨터의 이름을 제대로 부를 수 있게 되었다. 때로는 우리가 당연하게 여기는 것들의 기본을 돌아보는 것이 더 큰 성장을 위한 첫걸음이 될 수 있다는 것을 이 책이 가르쳐주었다.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-80dc-b52d-d266c4ef787e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:15:00.000Z",
+      "last_edited_time": "2024-12-08T13:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-803b-b916-f3358aad24f8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:15:00.000Z",
+      "last_edited_time": "2024-12-08T13:21:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "길벗 출판사의 후원을 받아 서평을 작성했습니다",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": true,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "gray"
+            },
+            "plain_text": "길벗 출판사의 후원을 받아 서평을 작성했습니다",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1566a1ef-3afb-8055-9f1a-cea8122488b4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "1566a1ef-3afb-809d-ad42-edcf32ae91cf"
+      },
+      "created_time": "2024-12-08T13:15:00.000Z",
+      "last_edited_time": "2024-12-08T13:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "3be13fb0-831d-4850-8a52-bd2c1f404aef"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}
