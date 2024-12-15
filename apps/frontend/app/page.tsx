@@ -4,6 +4,18 @@ import TagRecommendations from '@/components/home/tag-recommendations';
 export default function Home() {
   const posts: Post[] = [
     {
+      id: '15d6a1ef-3afb-8085-9112-f0fa6790f41f',
+      title: '나도야 발표자 경험있다야, 앞단콘2024',
+      description:
+        '프론트엔드 개발자들의 소소한 이야기를 3분씩 나누는 작은 컨퍼런스, 앞단콘2024에 참가한 특별한 경험을 공유합니다.',
+      image: '/images/image_3.jpeg',
+      category: '회고',
+      readingTime: 5,
+      tags: ['컨퍼런스', '프론트엔드', '발표', '네트워킹'],
+      publishDate: '2024-12-15',
+      href: '/post/24-12-15',
+    },
+    {
       id: '1456a1ef-3afb-8095-a4ae-c715d9af63e8',
       title: '나는 왜 개발자를 꿈꾸게 되었을까?',
       description:
